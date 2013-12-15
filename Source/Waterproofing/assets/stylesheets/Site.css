@@ -1,0 +1,9 @@
+﻿body {
+    background-color: #fff;
+}
+#products {
+    width: 400px;
+}
+#products li {
+    color: #fff;
+}
