@@ -1,9 +1,49 @@
 ﻿body {
     background-color: #fff;
+    font-size: 16px;
 }
-#products {
-    width: 400px;
+#header {
+    background-color: #c8d5f3;
+    background-color: #eee;
 }
-#products li {
-    color: #fff;
+.navbar-brand h2 {
+    color: #07349d;
+}
+.nav-justified> li> a {
+    background: transparent;
+    padding: 5px 5px;
+    margin: 0 10px;
+    font-size: 14px;
+    text-align: left;
+}
+.narbar-header h2 {
+   color: #6794F0;
+}
+.nav > li {
+    background-color: none;
+}
+.nav > li > a:hover span, 
+.nav > li > a:focus span{
+    background-color: none;
+    color: #07349d; 
+}
+
+.carousel-image {
+    
+    background-color: #04287d;
+    background-color: #6794F0;
+    margin-top: 90px;
+}
+#header .navbar-default {
+    border-bottom: 1px solid;
+    border-color: rgba(253, 253, 253, 1);
+}
+#header .navbar-default .navbar-nav > li > a span {
+    text-shadow:rgba(146, 146, 146, 0.7);
+} 
+.navbar-brand a {
+   color: #fff;
+}
+a.hover, a.focus {
+    background-color: none;
 }

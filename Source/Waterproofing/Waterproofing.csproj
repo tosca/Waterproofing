@@ -153,6 +153,11 @@
     <Content Include="assets\images\plugins\nivo_slider\next.png" />
     <Content Include="assets\images\plugins\nivo_slider\prev%402x.png" />
     <Content Include="assets\images\plugins\nivo_slider\prev.png" />
+    <Content Include="assets\images\slide-img-1.jpg" />
+    <Content Include="assets\images\slide-img-2.jpg" />
+    <Content Include="assets\images\slide-img-3.jpg" />
+    <Content Include="assets\images\slide-img-4.jpg" />
+    <Content Include="assets\images\slide-img-5.jpg" />
     <Content Include="assets\javascripts\bootstrap\bootstrap.min.js" />
     <Content Include="assets\javascripts\docs.js" />
     <Content Include="assets\javascripts\ie\html5shiv.js" />

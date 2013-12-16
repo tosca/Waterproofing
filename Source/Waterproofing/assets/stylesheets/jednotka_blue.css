@@ -5695,10 +5695,10 @@ body {
     $COMMON
 \*------------------------------------*/
 ::selection {
-  background-color: #7cdefe; }
+  background-color: #07349d; }
 
 ::-moz-selection {
-  background-color: #7cdefe; }
+  background-color: #07349d; }
 
 .well {
   background-color: #eaedf2;
@@ -5994,7 +5994,7 @@ body.boxed #scroll-to-top {
           float: none; }
         #header .navbar-default .navbar-nav > li > a span {
           color: white;
-          height: 90px;
+          height: 60px;
           border-bottom: 3px solid transparent;
           text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
           display: table-cell;
