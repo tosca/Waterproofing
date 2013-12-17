@@ -158,6 +158,7 @@
     <Content Include="assets\images\slide-img-3.jpg" />
     <Content Include="assets\images\slide-img-4.jpg" />
     <Content Include="assets\images\slide-img-5.jpg" />
+    <Content Include="assets\images\water-pattern.jpg" />
     <Content Include="assets\javascripts\bootstrap\bootstrap.min.js" />
     <Content Include="assets\javascripts\docs.js" />
     <Content Include="assets\javascripts\ie\html5shiv.js" />

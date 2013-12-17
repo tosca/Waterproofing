@@ -29,9 +29,12 @@
 }
 
 .carousel-image {
-    
     background-color: #04287d;
     background-color: #6794F0;
+    background-color: #3566cb;
+    background-image: url('../images/water-pattern.jpg');
+    background-repeat: repeat-x;
+    background-position:center bottom;
     margin-top: 90px;
 }
 #header .navbar-default {
