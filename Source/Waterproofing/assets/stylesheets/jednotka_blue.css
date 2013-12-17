@@ -6719,7 +6719,7 @@ pre {
     .panel.panel-big .panel-body p {
       color: #676f7a;
       line-height: 22px;
-      margin: 0; }
+      margin: 10px; }
     .panel.panel-big .panel-body .panel-title {
       font-weight: 500;
       font-size: 22px;
