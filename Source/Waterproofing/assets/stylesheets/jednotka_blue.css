@@ -6002,8 +6002,7 @@ body.boxed #scroll-to-top {
         #header .navbar-default .navbar-nav > li > a:hover, #header .navbar-default .navbar-nav > li > a:focus {
           background-color: transparent; }
           #header .navbar-default .navbar-nav > li > a:hover span, #header .navbar-default .navbar-nav > li > a:focus span {
-            color: white;
-            color: rgba(255, 255, 255, 0.85);
+            color: #9ca4af;
             border-bottom-color: #3566cb; }
       #header .navbar-default .navbar-nav > li.open > a, #header .navbar-default .navbar-nav > li.open > a:hover, #header .navbar-default .navbar-nav > li.open > a:focus, #header .navbar-default .navbar-nav > li.active > a, #header .navbar-default .navbar-nav > li.active > a:hover, #header .navbar-default .navbar-nav > li.active > a:focus {
         color: white;
@@ -6276,7 +6275,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto";
   font-weight: 500;
-  color: #434955; }
+  color: #123787; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     color: #676f7a;
     font-family: "Open Sans";
