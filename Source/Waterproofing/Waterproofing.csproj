@@ -140,6 +140,9 @@
     <Content Include="assets\images\bg_patterns\bg_boxed.png" />
     <Content Include="assets\images\bg_wrapper%402x.jpg" />
     <Content Include="assets\images\bg_wrapper.jpg" />
+    <Content Include="assets\images\crack-repair-1.jpg" />
+    <Content Include="assets\images\crack-repair-2.jpg" />
+    <Content Include="assets\images\crack-repair-3.jpg" />
     <Content Include="assets\images\ie\backgroundsize.min.htc" />
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\logo.svg" />
