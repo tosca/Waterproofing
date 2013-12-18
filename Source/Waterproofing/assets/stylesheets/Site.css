@@ -1,6 +1,8 @@
 ﻿body {
     background-color: #fff;
     font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
 }
 #header {
     background-color: #c8d5f3;
@@ -27,7 +29,19 @@
     background-color: none;
     color: #07349d; 
 }
+.affix {
+    position: fixed; 
+    top: 100px; 
+}
+img-polorid {
 
+}
+.panel-body p {
+    text-align: left;
+}
+section {
+    margin-bottom: 100px;
+}
 .carousel-image {
     background-color: #04287d;
     background-color: #6794F0;
