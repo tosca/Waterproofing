@@ -7941,12 +7941,12 @@ body.boxed .hero-carousel .flex-direction-nav .flex-next {
   line-height: 45px; }
   @media (min-width: 768px) and (max-width: 991px) {
     .carousel-image .big, .carousel-image .normal {
-      margin-top: 72px;
+      margin-top: 50px;
       font-size: 48px;
       line-height: 60px; } }
   @media (min-width: 992px) {
     .carousel-image .big, .carousel-image .normal {
-      margin-top: 90px;
+      margin-top: 60px;
       font-size: 60px;
       line-height: 75px; } }
 .carousel-image .normal {
