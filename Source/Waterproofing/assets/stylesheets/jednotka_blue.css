@@ -5695,10 +5695,10 @@ body {
     $COMMON
 \*------------------------------------*/
 ::selection {
-  background-color: #07349d; }
+  background-color: #9ca4af; }
 
 ::-moz-selection {
-  background-color: #07349d; }
+  background-color: #9ca4af; }
 
 .well {
   background-color: #eaedf2;
@@ -5773,7 +5773,7 @@ body {
       background-size: 1920px 535px; } }
 
 #main-content {
-  padding: 70px 0 80px 0;
+  padding: 30px 0 50px 0;
   background-color: white; }
 
 body.boxed #scroll-to-top {
@@ -5829,7 +5829,8 @@ body.boxed #scroll-to-top {
   border-radius: 0; }
   #header .navbar-default .navbar-collapse {
     background-color: #353b47;
-    background-color: rgba(53, 59, 71, 0.98);
+    background-color: rgba(53, 59, 71, 0.70);
+    background-color: #93979f;
     border: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;

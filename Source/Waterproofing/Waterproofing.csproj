@@ -133,7 +133,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\fonts - Copy\font-awesome\fontawesome-webfont.svg" />
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.svg" />
     <Content Include="assets\images\bg_fullsize.jpg" />
     <Content Include="assets\images\bg_patterns\bg_boxed%402x.png" />
@@ -245,10 +244,6 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="assets\stylesheets\Site.css" />
-    <Content Include="assets\fonts - Copy\font-awesome\fontawesome-webfont.eot" />
-    <Content Include="assets\fonts - Copy\font-awesome\fontawesome-webfont.ttf" />
-    <Content Include="assets\fonts - Copy\font-awesome\fontawesome-webfont.woff" />
-    <Content Include="assets\fonts - Copy\font-awesome\FontAwesome.otf" />
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.eot" />
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.ttf" />
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.woff" />
