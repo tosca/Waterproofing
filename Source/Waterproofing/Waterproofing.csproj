@@ -278,6 +278,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\CrawlspaceEncapsulation.cshtml" />
     <Content Include="Views\Home\FoundationCrackRepair.cshtml" />
+    <Content Include="Views\Home\BasementDrainTileSystem.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
