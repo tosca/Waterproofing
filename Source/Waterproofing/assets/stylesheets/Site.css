@@ -10,9 +10,11 @@ p {
 #header {
     background-color: #c8d5f3;
     background-color: #eee;
+    height: 120px;
 }
-.navbar-brand h2 {
+.navbar-default .navbar-brand {
     color: #07349d;
+    color: #3566cb;
 }
 .nav-justified> li> a {
     background: transparent;
@@ -41,6 +43,7 @@ p {
 #header .navbar-default .navbar-nav > li > a span {
     text-shadow: none;
    color: #07349d;
+   max-width: 100px;
 }
 .navbar-brand a {
    color: #fff;
@@ -70,8 +73,12 @@ section {
 section h1{
     text-align:center;
 }
-#basement-draintile .panel-body {
+#basement-draintile .panel-body,
+#crack-repair .panel-body{
     text-align: left;
+}
+.repair-img .img-thumbnail{
+    margin-top: 20px;
 }
 .panel-body{
     padding: 0 0 20px 0;
