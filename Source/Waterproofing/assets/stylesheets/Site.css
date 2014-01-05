@@ -10,7 +10,7 @@ p {
 #header {
     background-color: #c8d5f3;
     background-color: #eee;
-    height: 120px;
+    height: 130px;
 }
 .navbar-default .navbar-brand {
     color: #07349d;
@@ -43,7 +43,7 @@ p {
 #header .navbar-default .navbar-nav > li > a span {
     text-shadow: none;
    color: #07349d;
-   max-width: 100px;
+   max-width: 120px;
 }
 .navbar-brand a {
    color: #fff;
@@ -123,10 +123,18 @@ max-height: 60px;
 }
 a:hover, a:focus {
     color: #676f7a;
-    color: #eee;
+   /* color: #eee;*/
+   text-decoration: none;
 }
 @media (min-width: 768px) {
     .nav-justified > li > a {
         border-bottom: none;
+    }
+    .navbar-default .navbar-brand {
+        max-width: 300px;
+    }
+}
+@media (min-width: 992px) {
+    .navbar-default .navbar-brand {
     }
 }

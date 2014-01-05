@@ -5984,7 +5984,7 @@ body.boxed #scroll-to-top {
         border-bottom-right-radius: 5px; } }
   @media (min-width: 768px) {
     #header .navbar-default .navbar-nav > li {
-      margin-top: 21px; }
+      margin-top: 10px; }
       #header .navbar-default .navbar-nav > li > a {
         margin-top: 1px;
         padding: 0 15px;
@@ -7948,8 +7948,8 @@ body.boxed .hero-carousel .flex-direction-nav .flex-next {
   @media (min-width: 992px) {
     .carousel-image .big, .carousel-image .normal {
       margin-top: 60px;
-      font-size: 60px;
-      line-height: 75px; } }
+      font-size: 50px;
+      line-height: 65px; } }
 .carousel-image .normal {
   font-weight: 300;
   margin: 0;
