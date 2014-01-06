@@ -5,7 +5,7 @@
     text-rendering: optimizelegibility;
 }
 p {
-    color: #535353;
+    color: #333;
 }
 .green {
     color: #8dc153;
@@ -88,7 +88,7 @@ section h1{
     height: 300px;
 }
 .panel-body{
-    padding: 0 0 20px 0;
+    padding: 0 20px 20px 0;
 }
 .panel.panel-big .panel-body p {
     color: #444444;
@@ -107,6 +107,9 @@ line-height: 30px;
 border-radius: 50%;
 width: 30px;
 height: 30px;
+}
+.h3 small {
+    font-size: 16px;
 }
 .lead.lead-lg {
 margin-bottom: 20px;

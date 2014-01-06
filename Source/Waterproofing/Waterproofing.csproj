@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.svg" />
+    <Content Include="assets\images\Basement-drain-tile.jpg" />
     <Content Include="assets\images\bg_fullsize.jpg" />
     <Content Include="assets\images\bg_patterns\bg_boxed%402x.png" />
     <Content Include="assets\images\bg_patterns\bg_boxed.png" />
@@ -142,6 +143,9 @@
     <Content Include="assets\images\crack-repair-1.jpg" />
     <Content Include="assets\images\crack-repair-2.jpg" />
     <Content Include="assets\images\crack-repair-3.jpg" />
+    <Content Include="assets\images\crawlspace_before_polyurea.jpg" />
+    <Content Include="assets\images\crawlspace_encapsulation.jpg" />
+    <Content Include="assets\images\crawlspace_storage.jpg" />
     <Content Include="assets\images\ie\backgroundsize.min.htc" />
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\logo.svg" />
