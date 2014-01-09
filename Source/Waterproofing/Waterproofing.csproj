@@ -150,7 +150,10 @@
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\logo.svg" />
     <Content Include="assets\images\meta_icons\apple-touch-icon.png" />
+    <Content Include="assets\images\meta_icons\crack.png" />
     <Content Include="assets\images\meta_icons\favicon.ico" />
+    <Content Include="assets\images\meta_icons\intrusion.png" />
+    <Content Include="assets\images\meta_icons\water-drop.png" />
     <Content Include="assets\images\plugins\nivo_slider\close%402x.png" />
     <Content Include="assets\images\plugins\nivo_slider\close.png" />
     <Content Include="assets\images\plugins\nivo_slider\loading%402x.gif" />
