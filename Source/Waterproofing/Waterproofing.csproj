@@ -151,9 +151,13 @@
     <Content Include="assets\images\logo.svg" />
     <Content Include="assets\images\meta_icons\apple-touch-icon.png" />
     <Content Include="assets\images\meta_icons\crack.png" />
+    <Content Include="assets\images\meta_icons\crawlspace.png" />
+    <Content Include="assets\images\meta_icons\drain-tile.png" />
     <Content Include="assets\images\meta_icons\favicon.ico" />
+    <Content Include="assets\images\meta_icons\home.png" />
     <Content Include="assets\images\meta_icons\intrusion.png" />
     <Content Include="assets\images\meta_icons\water-drop.png" />
+    <Content Include="assets\images\meta_icons\workers.png" />
     <Content Include="assets\images\plugins\nivo_slider\close%402x.png" />
     <Content Include="assets\images\plugins\nivo_slider\close.png" />
     <Content Include="assets\images\plugins\nivo_slider\loading%402x.gif" />
@@ -190,11 +194,6 @@
     <Content Include="assets\stylesheets\docs.css" />
     <Content Include="assets\stylesheets\jednotka_blue.css" />
     <Content Include="assets\stylesheets\jednotka_green.css" />
-    <Content Include="assets\stylesheets\jednotka_mint.css" />
-    <Content Include="assets\stylesheets\jednotka_orange.css" />
-    <Content Include="assets\stylesheets\jednotka_red.css" />
-    <Content Include="assets\stylesheets\jednotka_salmon.css" />
-    <Content Include="assets\stylesheets\jednotka_yellow.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />

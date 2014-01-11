@@ -74,6 +74,9 @@ p {
     background-position:center bottom;
     margin-top: 90px;
 }
+    .carousel-image .big {
+        font-size: 48px;
+    }
 
 a.hover, a.focus {
     background-color: none;
@@ -146,6 +149,7 @@ max-height: 60px;
     background-repeat: no-repeat;
     background-position:center center;
     background-size: 60px;
+    
 }
 .icon-crack {
     background-image: url('../images/meta_icons/crack.png');
@@ -158,6 +162,33 @@ max-height: 60px;
     background-repeat: no-repeat;
     background-position:center center;
     background-size: 60px;
+}
+.icon-crawlspace {
+    background-image: url('../images/meta_icons/crawlspace.png');
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: 60px;
+}
+.icon-drain-tile {
+    background-image: url('../images/meta_icons/drain-tile.png');
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: 60px;
+}
+.icon-home {
+    background-image: url('../images/meta_icons/home.png');
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: 60px;
+}
+.icon-workers {
+    background-image: url('../images/meta_icons/workers.png');
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: 60px;
+}
+.panel.panel-big .panel-icon .icon .icon-intrusion {
+    border-radius: 5px;
 }
 a:hover, a:focus {
     color: #676f7a;
