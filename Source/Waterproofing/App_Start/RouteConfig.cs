@@ -12,12 +12,39 @@ namespace Waterproofing
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.IgnoreRoute("{*favicon}", new { favicon = @"(.*/)?favicon.ico(/.*)?" });
+            routes.IgnoreRoute("{folder}/{*pathInfo}", new { folder = "Content" });
+
 
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );
+                "high-tech-waterproofing",
+                "high-tech-waterproofing",
+                new { controller = "Home", action = "Index" }
+                );
+
+            routes.MapRoute(
+                "crawlspace-encapsulation",
+                "crawlspace-encapsulation",
+                new { controller = "Home", action = "CrawlspaceEncapsulation" }
+                );
+
+            routes.MapRoute(
+                "foundation-crack-repair",
+                "foundation-crack-repair",
+                new { controller = "Home", action = "FoundationCrackRepair" }
+                );
+
+            routes.MapRoute(
+                "basement-drain-tile-system",
+                "basement-drain-tile-system",
+                new { controller = "Home", action = "BasementDrainTileSystem" }
+                );
+
+            routes.MapRoute(
+                "Default",
+                "{controller}/{action}/{id}",
+                new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                );
         }
     }
 }
