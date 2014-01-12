@@ -19,7 +19,7 @@ namespace Waterproofing
             routes.MapRoute(
                 "high-tech-waterproofing",
                 "high-tech-waterproofing",
-                new { controller = "Home", action = "Index" }
+                new { controller = "Home", action = "HighTechWaterproofing" }
                 );
 
             routes.MapRoute(
@@ -43,7 +43,7 @@ namespace Waterproofing
             routes.MapRoute(
                 "Default",
                 "{controller}/{action}/{id}",
-                new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                new { controller = "Home", action = "HighTechWaterproofing", id = UrlParameter.Optional }
                 );
         }
     }

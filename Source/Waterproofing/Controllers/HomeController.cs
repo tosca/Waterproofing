@@ -11,7 +11,7 @@ namespace Waterproofing.Controllers
         //
         // GET: /Home/
 
-        public ActionResult Index()
+        public ActionResult HighTechWaterproofing()
         {
             return View();
         }
