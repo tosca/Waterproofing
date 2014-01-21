@@ -144,6 +144,7 @@ max-height: 60px;
     font-size: 28px;
     color: rgb(67, 73, 85);
 }
+
 .icon-water {
     background-image: url('../images/meta_icons/water-drop.png');
     background-repeat: no-repeat;
@@ -194,6 +195,11 @@ max-height: 60px;
     background-repeat: no-repeat;
     background-position:center center;
     background-size: 60px;
+}
+.contacts {
+    width: 50%;
+    background-position:bottom right;
+    
 }
 .panel.panel-big .panel-icon .icon .icon-intrusion {
     border-radius: 5px;

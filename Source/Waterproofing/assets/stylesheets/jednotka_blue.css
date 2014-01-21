@@ -6050,14 +6050,14 @@ body.boxed #scroll-to-top {
 \*------------------------------------*/
 #footer #footer-main {
   padding: 50px 0;
-  background-color: #434955;
+  background-color: #9ca4af;
   text-align: center; }
   @media (min-width: 768px) {
     #footer #footer-main {
       text-align: left; } }
   #footer #footer-main [class^="fa-icon-"], #footer #footer-main [class*=" fa-icon-"] {
     color: #3566cb;
-    font-size: 15px;
+    font-size: 22px;
     margin-top: 2px; }
   #footer #footer-main .title {
     color: white;
@@ -6130,7 +6130,7 @@ body.boxed #scroll-to-top {
     #footer #footer-main form .btn {
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); }
   #footer #footer-main .info-box, #footer #footer-main ul, #footer #footer-main p, #footer #footer-main ol, #footer #footer-main ul li, #footer #footer-main ol li {
-    color: #aab2bd; }
+    color: #ffffff; }
   #footer #footer-main p {
     font-size: 14px;
     line-height: 24px; }
