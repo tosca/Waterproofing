@@ -157,7 +157,8 @@
     <Content Include="assets\images\meta_icons\drain-tile.png" />
     <Content Include="assets\images\meta_icons\encapsulation.png" />
     <Content Include="assets\images\meta_icons\favicon.ico" />
-    <Content Include="assets\images\meta_icons\favicon.png" />
+    <Content Include="favicon.ico" />
+    <Content Include="Views\Shared\favicon.png" />
     <Content Include="assets\images\meta_icons\home.png" />
     <Content Include="assets\images\meta_icons\intrusion.png" />
     <Content Include="assets\images\meta_icons\water-drop.png" />
