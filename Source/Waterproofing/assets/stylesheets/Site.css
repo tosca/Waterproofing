@@ -75,7 +75,7 @@ p {
 }
 .carousel-image {
     background-image: url('../images/water-wide.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position:center bottom;
 }
     .carousel-image .big {
