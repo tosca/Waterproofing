@@ -65,14 +65,18 @@ p {
     position: fixed; 
     top: 100px; 
 }
-.carousel-image {
-    background-color: #04287d;
-    background-color: #6794F0;
+.main {
+    max-width: 1920px;
+}
+.hero-carousel {
     background-color: #3566cb;
-    background-image: url('../images/water-pattern.jpg');
-    background-repeat: repeat-x;
-    background-position:center bottom;
     margin-top: 90px;
+    width: 100%;
+}
+.carousel-image {
+    background-image: url('../images/water-wide.jpg');
+    background-repeat: no-repeat;
+    background-position:center bottom;
 }
     .carousel-image .big {
         font-size: 48px;
