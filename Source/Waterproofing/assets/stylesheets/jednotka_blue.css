@@ -7969,8 +7969,8 @@ body.boxed .hero-carousel .flex-direction-nav .flex-next {
 .carousel-image .btn.btn-lg {
   margin-top: 50px;
   margin-bottom: 95px;
-  font-size: 16px;
-  padding: 12px 40px;
+  font-size: 18px;
+  padding: 12px 36px;
   font-weight: 500;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
 
@@ -9078,7 +9078,7 @@ ul.circle-stats {
     border-color: white;
     color: white; }
     .btn-white.btn-bordered:hover, .btn-white.btn-bordered:focus {
-      background-color: rgba(255, 255, 255, 0.1); }
+      background-color: rgba(255, 255, 255, 0.2); }
     .btn-white.btn-bordered.disabled, .btn-white.btn-bordered.disabled:hover, .btn-white.btn-bordered.disabled:active, .btn-white.btn-bordered.disabled:focus, .btn-white.btn-bordered.disabled.active, .btn-white.btn-bordered[disabled], .btn-white.btn-bordered[disabled]:hover, .btn-white.btn-bordered[disabled]:active, .btn-white.btn-bordered[disabled]:focus, .btn-white.btn-bordered[disabled].active, fieldset[disabled] .btn-white.btn-bordered, fieldset[disabled] .btn-white.btn-bordered:hover, fieldset[disabled] .btn-white.btn-bordered:active, fieldset[disabled] .btn-white.btn-bordered:focus, fieldset[disabled] .btn-white.btn-bordered.active {
       border-color: white;
       color: white; }
