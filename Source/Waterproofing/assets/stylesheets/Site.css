@@ -16,7 +16,7 @@ p {
     height: 120px;
 }
 #header .navbar {
-        height: 102px;
+        height: 92px;
     }
 .navbar-default .navbar-brand {
     color: #3566cb;
@@ -69,7 +69,7 @@ p {
     max-width: 1920px;
 }
 .hero-carousel {
-    background-color: #3566cb;
+    background-color: #123787;
     margin-top: 90px;
     width: 100%;
 }

@@ -39,6 +39,11 @@ namespace Waterproofing
                 "basement-drain-tile-system",
                 new { controller = "Home", action = "BasementDrainTileSystem" }
                 );
+            routes.MapRoute(
+                "polyurea-video",
+                "polyurea-video",
+                new { controller = "Home", action = "Videos" }
+                );
 
             routes.MapRoute(
                 "Default",

@@ -5816,7 +5816,7 @@ body.boxed #scroll-to-top {
     $HEADER
 \*------------------------------------*/
 #header .navbar {
-  height: 90px; }
+  height: 70px; }
 #header .navbar-default {
   border: none;
   background: none;
@@ -7590,13 +7590,13 @@ pre {
       opacity: 0; }
 
 .hero-carousel, .hero-carousel .item {
-  height: 488px; }
+  height: 420px; }
   @media (min-width: 768px) and (max-width: 991px) {
     .hero-carousel, .hero-carousel .item {
       height: 491px; } }
   @media (min-width: 992px) {
     .hero-carousel, .hero-carousel .item {
-      height: 528px; } }
+      height: 460px; } }
 
 body.boxed .hero-carousel .flex-direction-nav .flex-prev {
   left: 0; }
@@ -7951,7 +7951,7 @@ body.boxed .hero-carousel .flex-direction-nav .flex-next {
       font-size: 50px;
       line-height: 65px; } }
 .carousel-image .normal {
-  font-weight: 300;
+  font-weight: 400;
   margin: 0;
   margin-top: 24px;
   font-size: 18px;
