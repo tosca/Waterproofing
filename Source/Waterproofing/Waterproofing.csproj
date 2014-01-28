@@ -143,13 +143,15 @@
     <Content Include="assets\images\crack-repair-1.jpg" />
     <Content Include="assets\images\crack-repair-2.jpg" />
     <Content Include="assets\images\crack-repair-3.jpg" />
+    <Content Include="assets\images\crawlspace-storage-2.jpg" />
+    <Content Include="assets\images\crawlspace-storage-3.jpg" />
+    <Content Include="assets\images\crawlspace-storage-4.jpg" />
     <Content Include="assets\images\crawlspace_before_polyurea.jpg" />
     <Content Include="assets\images\crawlspace_encapsulation.jpg" />
     <Content Include="assets\images\crawlspace_storage.jpg" />
     <Content Include="assets\images\ie\backgroundsize.min.htc" />
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\logo.svg" />
-    <Content Include="assets\images\McKiel-Testimonial.gif" />
     <Content Include="assets\images\meta_icons\apple-touch-icon.png" />
     <Content Include="assets\images\meta_icons\contact.png" />
     <Content Include="assets\images\meta_icons\crack.png" />

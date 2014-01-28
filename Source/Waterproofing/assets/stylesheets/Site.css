@@ -97,6 +97,10 @@ section h1{
 #crack-repair .panel-body{
     text-align: left;
 }
+.testimonial {
+    margin-left: 7%;
+    margin-right: 7%;
+}
 .repair-img .img-thumbnail{
     margin-top: 20px;
 }
