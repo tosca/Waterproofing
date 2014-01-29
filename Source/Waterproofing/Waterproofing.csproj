@@ -262,7 +262,6 @@
     <Content Include="assets\stylesheets\Site.css" />
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.eot" />
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.ttf" />
-    <Content Include="assets\fonts\font-awesome\fontawesome-webfont.woff" />
     <Content Include="assets\fonts\font-awesome\FontAwesome.otf" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />

@@ -60,10 +60,17 @@ p {
     }
     #header .navbar-default {    
     border-bottom: 2px solid #fff;
+    margin: 0 7px;
 }
 .affix {
     position: fixed; 
     top: 100px; 
+}
+.phone {
+    z-index: 10;
+    position: absolute;
+    top: 75px;
+    right: 50px;
 }
 .main {
     max-width: 1920px;
