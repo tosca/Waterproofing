@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\font-awesome\fontawesome-webfont.woff" />
     <Content Include="assets\images\Basement-drain-tile.jpg" />
     <Content Include="assets\images\bg_fullsize.jpg" />
     <Content Include="assets\images\bg_patterns\bg_boxed%402x.png" />
