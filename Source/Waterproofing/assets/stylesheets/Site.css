@@ -51,17 +51,16 @@ p {
 }
 #header .navbar-default .navbar-nav > li > a:hover span, #header .navbar-default .navbar-nav > li > a:focus span {
     color: rgb(156, 164, 175);
-    border-bottom-color: rgb(156, 164, 175);
-    
+    border-bottom-color: rgb(156, 164, 175);    
 }
 .nav > li > a:hover span,
 .nav > li > a:focus span {
     background-color: none;
 }
-    #header .navbar-default .navbar-collapse {
+#header .navbar-default .navbar-collapse {
         background-color: #e8e8e8;
-    }
-    #header .navbar-default {    
+}
+#header .navbar-default {    
     border-bottom: 2px solid #fff;
     margin: 0 7px;
 }
@@ -88,10 +87,12 @@ p {
     background-repeat: repeat-x;
     background-position:center bottom;
 }
-    .carousel-image .big {
+.carousel-image .big {
         font-size: 48px;
-    }
-
+}
+.carousel-image .normal {
+        color:#123787;
+}
 a.hover, a.focus {
     background-color: none;
 }

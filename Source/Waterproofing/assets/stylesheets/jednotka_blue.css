@@ -6222,8 +6222,8 @@ body {
 
 .lead {
   font-family: "Roboto";
-  font-size: 26px;
-  line-height: 39px;
+  font-size: 22px;
+  line-height: 38px;
   font-weight: 300;
   color: #434955; }
   .lead.lead-lg {
@@ -7954,13 +7954,13 @@ body.boxed .hero-carousel .flex-direction-nav .flex-next {
   font-weight: 400;
   margin: 0;
   margin-top: 24px;
-  font-size: 18px;
-  line-height: 22px; }
+  font-size: 26px;
+  line-height: 30px; }
   @media (min-width: 768px) and (max-width: 991px) {
     .carousel-image .normal {
       margin-top: 32px;
-      font-size: 24px;
-      line-height: 30px; } }
+      font-size: 28px;
+      line-height: 34px; } }
   @media (min-width: 992px) {
     .carousel-image .normal {
       margin-top: 40px;
