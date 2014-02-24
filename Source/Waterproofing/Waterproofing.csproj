@@ -136,11 +136,6 @@
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.svg" />
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.woff" />
     <Content Include="assets\images\Basement-drain-tile.jpg" />
-    <Content Include="assets\images\bg_fullsize.jpg" />
-    <Content Include="assets\images\bg_patterns\bg_boxed%402x.png" />
-    <Content Include="assets\images\bg_patterns\bg_boxed.png" />
-    <Content Include="assets\images\bg_wrapper%402x.jpg" />
-    <Content Include="assets\images\bg_wrapper.jpg" />
     <Content Include="assets\images\crack-repair-1.jpg" />
     <Content Include="assets\images\crack-repair-2.jpg" />
     <Content Include="assets\images\crack-repair-3.jpg" />
@@ -207,7 +202,6 @@
     <Content Include="assets\stylesheets\bootstrap\bootstrap.min.css" />
     <Content Include="assets\stylesheets\docs.css" />
     <Content Include="assets\stylesheets\jednotka_blue.css" />
-    <Content Include="assets\stylesheets\jednotka_green.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
