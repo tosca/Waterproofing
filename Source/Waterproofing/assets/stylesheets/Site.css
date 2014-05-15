@@ -72,11 +72,11 @@ p {
     z-index: 10;
     position: absolute;
     top: 86px;
-    right: 40px;
+    right: 30px;
 }
-.top-contact h4{
+.top-contact h5{
     display:inline-block;
-    padding-right: 4px;
+    padding-right: 0px;
 }
 .main {
     max-width: 1920px;
