@@ -131,6 +131,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infastructure\Business\INotificationService.cs" />
+    <Compile Include="Infastructure\Business\NotificationService.cs" />
+    <Compile Include="Infastructure\Entities\Prospect.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

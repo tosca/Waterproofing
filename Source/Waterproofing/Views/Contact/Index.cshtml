@@ -3,61 +3,66 @@
 }
 
 
-<div>
+<div class="row ">
+    <div class="col-md-4 col-md-offset-4 ">
 
-hello world
+        <form action="/Contact" method="post">
+            <div class="form-group">
+
+                <label class="control-label" for="Company">Company</label>
+                <input class="form-control input" id="Company" maxlength="50" name="Company" type="text" value="" style="cursor: auto; background-attachment: scroll; background-position: 100% 50%; background-repeat: no-repeat;">
+                <span class="field-validation-valid" data-valmsg-for="Company" data-valmsg-replace="true"></span>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Name">Name</label>
+                <input class="form-control input" data-val="true" data-val-required="Name is Required" id="Name" maxlength="50" name="Name" type="text" value="">
+                <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Address">Address</label>
+                <input class="form-control input" id="Address" maxlength="50" name="Address" type="text" value="">
+                <span class="field-validation-valid" data-valmsg-for="Address" data-valmsg-replace="true"></span>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="City">City</label>
+                <input class="form-control input" id="City" maxlength="50" name="City" type="text" value="">
+                <span class="field-validation-valid" data-valmsg-for="City" data-valmsg-replace="true"></span>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="State">State</label>
+                <input class="form-control input" id="State" maxlength="2" name="State" type="text" value="">
+                <span class="field-validation-valid" data-valmsg-for="State" data-valmsg-replace="true"></span>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Phone">Phone</label>
+                <input class="form-control input" data-val="true" data-val-required="Phone is Required" id="Phone" maxlength="15" name="Phone" type="text" value="">
+                <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Email">Email</label>
+                <input class="form-control input" data-val="true" data-val-required="Email is Required" id="Email" maxlength="50" name="Email" type="text" value="">
+                <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Comment">Comment</label>
+                <textarea class="form-control input" cols="20" id="Comment" maxlength="100" name="Comment" rows="2"></textarea>
+
+
+                <span class="field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true"></span>
+
+            </div>
+            <input type="submit" class="btn btn-default btn-lg pull-right clearfix" value="Submit">
+        </form>
+
+
+    </div>
+
+
 </div>
-<form action="/Contact" method="post">
-                    <div class="form-group">
-
-                        <label class="control-label" for="Company">Company</label>
-                        <input class="form-control input" id="Company" maxlength="50" name="Company" type="text" value="" style="cursor: auto; background-attachment: scroll; background-position: 100% 50%; background-repeat: no-repeat;">
-                        <span class="field-validation-valid" data-valmsg-for="Company" data-valmsg-replace="true"></span>
-
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" for="Name">Name</label>
-                        <input class="form-control input" data-val="true" data-val-required="Name is Required" id="Name" maxlength="50" name="Name" type="text" value="">
-                        <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
-
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" for="Address">Address</label>
-                        <input class="form-control input" id="Address" maxlength="50" name="Address" type="text" value="">
-                        <span class="field-validation-valid" data-valmsg-for="Address" data-valmsg-replace="true"></span>
-
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" for="City">City</label>
-                        <input class="form-control input" id="City" maxlength="50" name="City" type="text" value="">
-                        <span class="field-validation-valid" data-valmsg-for="City" data-valmsg-replace="true"></span>
-
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" for="State">State</label>
-                        <input class="form-control input" id="State" maxlength="2" name="State" type="text" value="">
-                        <span class="field-validation-valid" data-valmsg-for="State" data-valmsg-replace="true"></span>
-
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" for="Phone">Phone</label>
-                        <input class="form-control input" data-val="true" data-val-required="Phone is Required" id="Phone" maxlength="15" name="Phone" type="text" value="">
-                        <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
-
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" for="Email">Email</label>
-                        <input class="form-control input" data-val="true" data-val-required="Email is Required" id="Email" maxlength="50" name="Email" type="text" value="">
-                        <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
-
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" for="Comment">Comment</label>
-                        <textarea class="form-control input" cols="20" id="Comment" maxlength="100" name="Comment" rows="2"></textarea>
-
-
-                        <span class="field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true"></span>
-
-                    </div>
-                    <input type="submit" class="btn btn-default btn-lg pull-right clearfix" value="Submit">
-</form>
