@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Waterproofing.Infastructure.Business;
+using Waterproofing.Infastructure.Entities;
+using Waterproofing.Infastructure.ViewModels;
 
 namespace Waterproofing.Controllers
 {
