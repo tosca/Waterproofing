@@ -13,7 +13,7 @@ namespace Waterproofing.Infastructure.Business
         {
             mailConfig = new MailConfig { MailGunApiKey = GetMailGunApiKey(), ToEmail = GetEmailTo() };
 
-            var from = string.Format("{0} <{1}>", prospect.Name, "noreply@indbat.com");
+            var from = string.Format("{0} <{1}>", prospect.Name, "noreply@hightechwaterproofing.com");
             var to = mailConfig.ToEmail;
             var body = string.Format("Name:{0}<br /> Address:{1}<br /> City:{2}<br /> State:{3}<br /> Zip:{4}<br /> Phone:{5}<br /> Email:{6}<br /> Company:{7}<br /> Comments:{8}<br /> ",
                 prospect.Name, prospect.Address,
@@ -25,7 +25,9 @@ namespace Waterproofing.Infastructure.Business
             client.Authenticator = new HttpBasicAuthenticator("api", mailConfig.MailGunApiKey);
 
             RestRequest request = new RestRequest();
-            request.AddParameter("domain", "app594.mailgun.org", ParameterType.UrlSegment);
+            request.AddParameter("domain", "app1193ba8bca1e42c1800deb686437cdcb.mailgun.org", ParameterType.UrlSegment);
+              
+
             request.Resource = "{domain}/messages";
             request.AddParameter("from", from);
             request.AddParameter("to", to);
@@ -34,7 +36,7 @@ namespace Waterproofing.Infastructure.Business
             request.AddParameter("html", "<html>" + body + "</html>");
             request.Method = Method.POST;
             var response = client.Execute(request);
-            return;
+            return; 
         }
 
 
@@ -46,7 +48,7 @@ namespace Waterproofing.Infastructure.Business
             {
                 ret = ConfigurationManager.AppSettings["MAILGUN_API_KEY"];
             }
-            return ret;
+            return   ret;
         }
         public static string GetEmailTo()
         {
