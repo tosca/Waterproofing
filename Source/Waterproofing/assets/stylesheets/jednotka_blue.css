@@ -6716,11 +6716,10 @@ pre {
   .panel.panel-big:hover {
     text-decoration: none; }
   .panel.panel-big .panel-body {
-    padding: 30px; }
+    padding: 20px; }
     .panel.panel-big .panel-body p {
       color: #676f7a;
-      line-height: 26px;
-      margin: 10px; }
+      line-height: 26px; }
     .panel.panel-big .panel-body .panel-title {
       font-weight: 500;
       font-size: 22px;
@@ -9025,33 +9024,32 @@ ul.circle-stats {
 
 .btn-default {
   background-color: white;
-  border-color: #434955;
+  border-color: #123787;
   background-image: none;
-  color: #434955; }
+  color: #123787; }
   .btn-default:hover, .btn-default:focus {
-    background-color: #ededed;
-    border-color: #333841;
-    color: #434955; }
+    background-color: #eaedf2;
+     }
   .btn-default:active, .btn-default.active {
     background-color: #e6e6e6;
     border-color: #2d3138;
-    color: #434955; }
+ }
   .btn-default.disabled, .btn-default[disabled] {
     background-color: white;
-    border-color: #686d76;
-    color: #686d76; }
+    border-color: #123787;
+    color: #123787; }
     .btn-default.disabled:hover, .btn-default.disabled:active, .btn-default.disabled:focus, .btn-default.disabled.active, .btn-default[disabled]:hover, .btn-default[disabled]:active, .btn-default[disabled]:focus, .btn-default[disabled].active {
       background-color: white;
-      border-color: #686d76;
-      color: #686d76; }
+      border-color: #123787;
+      color: #123787; }
   .btn-default.btn-bordered {
-    border-color: #434955;
-    color: #434955; }
+    border-color: #123787;
+    color: #123787; }
     .btn-default.btn-bordered:hover, .btn-default.btn-bordered:focus {
       background-color: rgba(255, 255, 255, 0.1); }
     .btn-default.btn-bordered.disabled, .btn-default.btn-bordered.disabled:hover, .btn-default.btn-bordered.disabled:active, .btn-default.btn-bordered.disabled:focus, .btn-default.btn-bordered.disabled.active, .btn-default.btn-bordered[disabled], .btn-default.btn-bordered[disabled]:hover, .btn-default.btn-bordered[disabled]:active, .btn-default.btn-bordered[disabled]:focus, .btn-default.btn-bordered[disabled].active, fieldset[disabled] .btn-default.btn-bordered, fieldset[disabled] .btn-default.btn-bordered:hover, fieldset[disabled] .btn-default.btn-bordered:active, fieldset[disabled] .btn-default.btn-bordered:focus, fieldset[disabled] .btn-default.btn-bordered.active {
-      border-color: #686d76;
-      color: #4a505b; }
+      border-color: #123787;
+      color: #123787; }
 
 .btn-white {
   background-color: white;
