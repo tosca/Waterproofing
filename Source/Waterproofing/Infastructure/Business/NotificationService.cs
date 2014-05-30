@@ -1,5 +1,7 @@
-﻿using System;
+﻿using RestSharp;
+using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 
@@ -49,9 +51,9 @@ namespace Waterproofing.Infastructure.Business
         public static string GetEmailTo()
         {
             var ret = "";
-            if (ConfigurationManager.AppSettings["EmailTo"] != null)
+            if (ConfigurationManager.AppSettings["MAILGUN_EMAIL_TO"] != null)
             {
-                ret = ConfigurationManager.AppSettings["EmailTo"];
+                ret = ConfigurationManager.AppSettings["MAILGUN_EMAIL_TO"];
             }
             return ret;
         }
