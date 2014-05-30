@@ -28,6 +28,13 @@ namespace Waterproofing.Controllers
 
         }
 
+        [HttpGet]
+        public ActionResult ThankYou()
+        {
+            return View();
+
+        }
+
 
         [HttpPost]
         public ActionResult Index(ProspectViewModel viewModel)
@@ -54,11 +61,6 @@ namespace Waterproofing.Controllers
             return View(viewModel); 
         }
          
-
-        public ActionResult ThankYou()
-        {
-            return View(); 
-        } 
 
     }
 
