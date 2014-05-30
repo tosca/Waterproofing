@@ -16,7 +16,7 @@ p {
 }
 #header {
     background-color: #e8e8e8;
-    height: 120px;
+    height: 95px;
 }
 #header .navbar {
         height: 92px;
@@ -71,10 +71,10 @@ p {
 .top-contact {
     z-index: 10;
     position: absolute;
-    top: 86px;
-    right: 30px;
+    top: 0px;
+    right: 45px;
 }
-.top-contact h5{
+.top-contact h3{
     display:inline-block;
     padding-right: 0px;
 }
