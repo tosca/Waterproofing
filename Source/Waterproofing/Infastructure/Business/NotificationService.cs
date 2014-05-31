@@ -15,9 +15,8 @@ namespace Waterproofing.Infastructure.Business
 
             var from = string.Format("{0} <{1}>", prospect.Name, "noreply@hightechwaterproofing.com");
             var to = mailConfig.ToEmail;
-            var body = string.Format("Name:{0}<br /> Address:{1}<br /> City:{2}<br /> State:{3}<br /> Zip:{4}<br /> Phone:{5}<br /> Email:{6}<br /> Company:{7}<br /> Comments:{8}<br /> ",
-                prospect.Name, prospect.Address,
-                prospect.City, prospect.State, prospect.Zip, prospect.Phone, prospect.Email, prospect.Company, prospect.Comment);
+            var body = string.Format("Name: {0}<br />Phone: {1}<br /> Email: {2}<br /> Comments: {3}<br /> ",
+                prospect.Name,  prospect.Phone, prospect.Email, prospect.Comment);
 
 
             RestClient client = new RestClient();
@@ -31,7 +30,7 @@ namespace Waterproofing.Infastructure.Business
             request.Resource = "{domain}/messages";
             request.AddParameter("from", from);
             request.AddParameter("to", to);
-            request.AddParameter("subject", "contact me");
+            request.AddParameter("subject", "HighTech Waterproofing - contact request");
             request.AddParameter("text", body);
             request.AddParameter("html", "<html>" + body + "</html>");
             request.Method = Method.POST;
