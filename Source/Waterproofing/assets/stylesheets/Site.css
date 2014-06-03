@@ -3,7 +3,7 @@
 }
 body {
     background-color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
 }
@@ -20,11 +20,11 @@ p {
 }
 #header {
     background-color: #e8e8e8;
-    height: 101px;
-    margin-top: 30px;
+  /*  height: 101px;*/
+    padding-top: 30px;
 }
 #header .navbar {
-        height: 92px;
+   /*  height: 60px;*/
     }
 .navbar-default .navbar-brand {
     color: #3566cb;
@@ -34,7 +34,7 @@ p {
 }
 .nav-justified> li> a {
     background: transparent;
-    padding: 5px 5px;
+    padding: 0px 5px;
     margin: 0 10px;
     font-size: 14px;
     text-align: left;
@@ -74,10 +74,12 @@ p {
     top: 100px; 
 }
 .top-contact {
-    z-index: 1000;
+    z-index: 10000;
     position: absolute;
     top: -16px;
     right: 45px;
+    background-color: #e8e8e8;
+    padding: 5px 10px;
 }
 .top-contact h3{
     display:inline-block;
@@ -88,7 +90,7 @@ p {
 }
 .hero-carousel {
     background-color: #123787;
-    margin-top: 90px;
+    margin-top: 91px;
     width: 100%;
 }
 .carousel-image {
@@ -97,15 +99,13 @@ p {
     background-position:center bottom;
 }
 .carousel-image .big {
-        font-size: 48px;
+        font-size: 46px;
 }
 .carousel-image .normal {
         color:#123787;
 }
 a.hover, a.focus {
     background-color: none;
-}
-img-polorid {
 }
 section {
     margin-bottom: 50px;
@@ -268,7 +268,7 @@ height: 100%;
         border-bottom: none;
     }
     .navbar-default .navbar-brand {
-        max-width: 280px;
+        max-width: 260px;
     }
    .top-contact {
     z-index: 10;
