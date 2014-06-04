@@ -5854,7 +5854,7 @@ body.boxed #scroll-to-top {
   #header .navbar-default .navbar-brand {
     padding: 0;
     float: none;
-    height: 90px;
+   /* height: 90px;*/
     display: table-cell;
     vertical-align: middle; }
   #header .navbar-default .navbar-toggle {

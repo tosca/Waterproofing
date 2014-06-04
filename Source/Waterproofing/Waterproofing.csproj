@@ -156,6 +156,10 @@
     <Content Include="assets\images\crawlspace_before_polyurea.jpg" />
     <Content Include="assets\images\crawlspace_encapsulation.jpg" />
     <Content Include="assets\images\crawlspace_storage.jpg" />
+    <Content Include="assets\images\HTWlogo-1.svg" />
+    <Content Include="assets\images\HTWlogo-3.svg" />
+    <Content Include="assets\images\HTWlogo.png" />
+    <Content Include="assets\images\HTWlogo.svg" />
     <Content Include="assets\images\ie\backgroundsize.min.htc" />
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\logo.svg" />

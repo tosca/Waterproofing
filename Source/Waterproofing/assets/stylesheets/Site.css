@@ -20,17 +20,16 @@ p {
 }
 #header {
     background-color: #e8e8e8;
-  /*  height: 101px;*/
-    padding-top: 30px;
+
 }
 #header .navbar {
    /*  height: 60px;*/
     }
 .navbar-default .navbar-brand {
-    color: #3566cb;
+    color: #123787;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    border-bottom: 2px solid #3566cb;
+    border-bottom: 2px solid #123787;
 }
 .nav-justified> li> a {
     background: transparent;
@@ -72,16 +71,8 @@ p {
     position: fixed; 
     top: 100px; 
 }
-.top-contact {
-    z-index: 10000;
-    position: absolute;
-    top: -16px;
-    background-color: #e8e8e8;
-    padding: 5px 10px;
-}
 .top-contact h3{
-    display:inline-block;
-    padding-right: 0px;
+ 
 }
 .main {
     max-width: 1920px;
@@ -277,18 +268,12 @@ height: 100%;
         padding-top: 0;
     }
 }
-@media (min-width: 768px) {
+ @media (min-width: 768px) and (max-width: 991px){
     .nav-justified > li > a {
         border-bottom: none;
     }
     .navbar-default .navbar-brand {
         min-width: 230px;
-    }
-   .top-contact {
-    z-index: 10;
-    position: absolute;
-    top: -16px;
-    right: 45px;
     }
     #header .navbar-default .navbar-nav > li > a span {
         max-width: 105px;
