@@ -7590,13 +7590,13 @@ pre {
       opacity: 0; }
 
 .hero-carousel, .hero-carousel .item {
-  height: 420px; }
+  height: 360px; }
   @media (min-width: 768px) and (max-width: 991px) {
     .hero-carousel, .hero-carousel .item {
-      height: 491px; } }
+      height: 400px; } }
   @media (min-width: 992px) {
     .hero-carousel, .hero-carousel .item {
-      height: 460px; } }
+      height: 400px; } }
 
 body.boxed .hero-carousel .flex-direction-nav .flex-prev {
   left: 0; }
@@ -7937,12 +7937,12 @@ body.boxed .hero-carousel .flex-direction-nav .flex-next {
 
 .carousel-image .big, .carousel-image .normal {
   color: white;
-  margin-top: 54px;
+  margin-top: 14px;
   font-size: 36px;
   line-height: 45px; }
   @media (min-width: 768px) and (max-width: 991px) {
     .carousel-image .big, .carousel-image .normal {
-      margin-top: 50px;
+      margin-top: 30px;
       font-size: 48px;
       line-height: 60px; } }
   @media (min-width: 992px) {

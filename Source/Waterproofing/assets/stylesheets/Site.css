@@ -91,6 +91,14 @@ p {
     margin-top: 91px;
     width: 100%;
 }
+.hero-carousel, .hero-carousel .item {
+  height: 340px; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .hero-carousel, .hero-carousel .item {
+      height: 400px; } }
+  @media (min-width: 992px) {
+    .hero-carousel, .hero-carousel .item {
+      height: 400px; } }
 .carousel-image {
     background-image: url('../images/water-wide.jpg');
     background-repeat: repeat-x;
@@ -98,10 +106,18 @@ p {
 }
 .carousel-image .big {
         font-size: 46px;
+        margin-top: -40px;
 }
+ @media (min-width: 768px) and (max-width: 991px) {
+    .carousel-image .big {
+      margin-top: 20px; } }
+  @media (min-width: 992px) {
+    .carousel-image .big {
+      margin-top: 10px; } }
 .carousel-image .normal {
         color:#123787;
 }
+
 a.hover, a.focus {
     background-color: none;
 }
@@ -266,7 +282,7 @@ height: 100%;
         border-bottom: none;
     }
     .navbar-default .navbar-brand {
-        max-width: 260px;
+        min-width: 230px;
     }
    .top-contact {
     z-index: 10;
