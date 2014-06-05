@@ -71,8 +71,8 @@ p {
     position: fixed; 
     top: 100px; 
 }
-.top-contact h3{
- 
+.top-contact{
+    padding: 0 4px 0 0;
 }
 .main {
     max-width: 1920px;
