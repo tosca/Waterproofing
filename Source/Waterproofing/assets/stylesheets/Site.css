@@ -38,12 +38,6 @@ p {
         left: 50%;
         top: 85px;
     }*/
-.logo {
- padding-top: 20px;
-}
-.logo a {  
-    margin-left: 12px;
-}
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     border-bottom: 2px solid #123787;
@@ -56,8 +50,14 @@ p {
     text-align: left;
     border-bottom: 1px solid white; 
 }
+.narbar-brand {
+    margin-top: 20px;
+}
 .narbar-header h2 {
    color: #676f7a;
+}
+a > navbar-brand {
+    margin-top: 20px;
 }
 .nav > li {
     background-color: none;
@@ -74,12 +74,19 @@ p {
     color: rgb(156, 164, 175);
     border-bottom-color: rgb(156, 164, 175);    
 }
+#header .navbar-default .navbar-brand {
+    padding-top: 20px;
+}
 .nav > li > a:hover span,
 .nav > li > a:focus span {
     background-color: none;
 }
 #header .navbar-default .navbar-collapse {
         background-color: #e8e8e8;
+}
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+margin-right: -15px;
+margin-top: 50px;
 }
 .affix {
     position: fixed; 
@@ -292,12 +299,12 @@ height: 100%;
         padding-top: 0;
     }
 }
- @media (min-width: 768px) and (max-width: 991px){
+ @media (min-width: 768px){
     .nav-justified > li > a {
         border-bottom: none;
     }
     .navbar-default .navbar-brand {
-        min-width: 230px;
+        min-width: 220px;
     }
     #header .navbar-default .navbar-nav > li > a span {
         max-width: 105px;
