@@ -15,19 +15,36 @@ p {
     color: #8dc153;
 }
 .orange {
-    color:#fd9503;
-    color:#f9980f;
+    color:#f59f08;
+    color:#f99b0f;    
+}
+.blue {
+    color: #123787;
 }
 #header {
     background-color: #e8e8e8;
-
 }
 #header .navbar {
-   /*  height: 60px;*/
+    height: auto;
     }
 .navbar-default .navbar-brand {
     color: #123787;
 }
+  /*  .navbar {
+        position: fixed;
+        z-index: 1000;
+        min-height: 50px;
+        margin-bottom: 20px;
+        left: 50%;
+        top: 85px;
+    }*/
+.logo {
+ padding-top: 20px;
+}
+.logo a {  
+    margin-left: 12px;
+}
+
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     border-bottom: 2px solid #123787;
 }
@@ -64,15 +81,22 @@ p {
 #header .navbar-default .navbar-collapse {
         background-color: #e8e8e8;
 }
-#header .navbar-default {    
-    border-bottom: 2px solid #fff;
-}
 .affix {
     position: fixed; 
     top: 100px; 
 }
-.top-contact{
-    padding: 0 4px 0 0;
+.top-contact {
+    margin-top: -20px;
+    margin-right: 25px;
+    z-index: 20000;
+    float: right;
+    clear: both;
+}
+.top-contact a{
+    padding-right: 7px;
+}
+.top-contact h2{
+    margin-top: -10px;
 }
 .main {
     max-width: 1920px;
