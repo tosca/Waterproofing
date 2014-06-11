@@ -5775,7 +5775,7 @@ body {
 
 #main-content {
   padding: 30px 0 50px 0;
-  background-color: white; }
+  background-color: #fcfafa; }
 
 body.boxed #scroll-to-top {
   border-color: #9ca4af;
@@ -5858,7 +5858,7 @@ body.boxed #scroll-to-top {
     display: table-cell;
     vertical-align: middle; }
   #header .navbar-default .navbar-toggle {
-    margin: 27px 0 0;
+    margin: 100px 20px 0;
     border-color: white;
     border-width: 2px;
     -webkit-border-radius: 5px;
