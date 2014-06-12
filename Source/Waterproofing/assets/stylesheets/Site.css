@@ -141,8 +141,8 @@ display: none!important;
     background-position:center bottom;
 }
 .carousel-image .normal {
-        color:#123787;
-        font-weight: 600;
+        color:#fff;
+        font-weight: 400;
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .carousel-image .big {
@@ -152,6 +152,10 @@ display: none!important;
         display: none;
         padding-top: 50px;
     }
+    .carousel-image .normal {
+        color:#123787;
+        font-weight: 500;
+}
 }
   @media (min-width: 992px) {
     .carousel-image .big {

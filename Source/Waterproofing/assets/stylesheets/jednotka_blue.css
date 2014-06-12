@@ -7942,7 +7942,7 @@ body.boxed .hero-carousel .flex-direction-nav .flex-next {
 .carousel-image .big, .carousel-image .normal {
   color: white;
   margin-top: 14px;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 45px; }
   @media (min-width: 768px) and (max-width: 991px) {
     .carousel-image .big, .carousel-image .normal {
