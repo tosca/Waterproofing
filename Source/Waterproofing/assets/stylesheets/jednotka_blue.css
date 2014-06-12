@@ -7593,10 +7593,14 @@ pre {
   height: 360px; }
   @media (min-width: 768px) and (max-width: 991px) {
     .hero-carousel, .hero-carousel .item {
-      height: 400px; } }
+      height: 360px; }
+        .hero-carousel .item {
+            padding-top: 25px;
+        }
+  }
   @media (min-width: 992px) {
     .hero-carousel, .hero-carousel .item {
-      height: 400px; } }
+      height: 360px; } }
 
 body.boxed .hero-carousel .flex-direction-nav .flex-prev {
   left: 0; }
@@ -7605,12 +7609,12 @@ body.boxed .hero-carousel .flex-direction-nav .flex-next {
 
 .hero-carousel {
   position: relative;
-  min-height: 380px;
+  min-height: 360px;
   top: -91px;
   margin-bottom: -91px; }
   .hero-carousel .item {
     display: none;
-    padding-top: 91px; }
+    padding-top: 40px; }
   .hero-carousel .slides {
     margin: 0;
     padding: 0;

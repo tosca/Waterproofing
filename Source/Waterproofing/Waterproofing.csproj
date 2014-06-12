@@ -158,6 +158,8 @@
     <Content Include="assets\images\crawlspace_storage.jpg" />
     <Content Include="assets\images\HTWlogo-1.svg" />
     <Content Include="assets\images\HTWlogo-3.svg" />
+    <Content Include="assets\images\HTWlogo-4.png" />
+    <Content Include="assets\images\HTWlogo-6.png" />
     <Content Include="assets\images\HTWlogo.png" />
     <Content Include="assets\images\HTWlogo.svg" />
     <Content Include="assets\images\ie\backgroundsize.min.htc" />

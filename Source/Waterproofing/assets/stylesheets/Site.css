@@ -32,16 +32,8 @@ p {
     }
 .navbar-default .navbar-brand {
     color: #123787;
+    padding: 30px 0px 0 0;
 }
-  /*  .navbar {
-        position: fixed;
-        z-index: 1000;
-        min-height: 50px;
-        margin-bottom: 20px;
-        left: 50%;
-        top: 85px;
-    }*/
-
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     border-bottom: 2px solid #123787;
 }
@@ -53,14 +45,11 @@ p {
     text-align: left;
     border-bottom: 1px solid white; 
 }
-.narbar-brand {
-    margin-top: 20px;
-}
 .narbar-header h2 {
    color: #676f7a;
 }
-a > navbar-brand {
-    margin-top: 20px;
+.navbar-brand img{
+    margin-left: 20px;
 }
 .nav > li {
     background-color: none;
@@ -77,36 +66,50 @@ a > navbar-brand {
     color: rgb(156, 164, 175);
     border-bottom-color: rgb(156, 164, 175);    
 }
-#header .navbar-default .navbar-brand {
-    padding-top: 20px;
-}
 .nav > li > a:hover span,
 .nav > li > a:focus span {
     background-color: none;
 }
 #header .navbar-default .navbar-collapse {
-        background-color: #e8e8e8;
+      /*  background-color: #e8e8e8;*/
 }
 .navbar-collapse .navbar-nav.navbar-right:last-child {
-margin-right: -15px;
-margin-top: 78px;
+    margin-right: -15px;
+    margin-top: 78px;
+}
+#header .navbar-default .navbar-toggle {
+    margin: 0px 20px 0px;
+    border-color: #FFF;
+    border-width: 2px;
+    border-radius: 5px;
 }
 .affix {
     position: fixed; 
     top: 100px; 
 }
 .top-contact {
-    position: absolute;
-    top: -10px;
-    right: 25px;
+    margin-right: 20px;
     z-index: 50000;
-
+    float:right;
+    margin-top: -10px;
 }
 .top-contact a{
     padding-right: 7px;
 }
-.top-contact h2{
-    margin-top: -10px;
+@media (min-width: 768px) {
+    .navbar-brand img {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+    .top-contact {
+    position: absolute;
+    width: 160px;
+    right: 30px;
+    z-index: 50000;
+} 
+   .top-contact {
+        margin-top: -10px;
+    }
 }
 .main {
     max-width: 1920px;
@@ -116,37 +119,46 @@ margin-top: 78px;
     margin-top: 91px;
     width: 100%;
 }
+ .hero-carousel .item {
+        padding-top: 10px;
+ }
 
 @media (max-width: 991px) and (min-width: 768px){
 .visible-sm {
 display: none!important;
 }}
 .hero-carousel, .hero-carousel .item {
-  height: 340px; }
+  height: 360px; }
   @media (min-width: 768px) and (max-width: 991px) {
     .hero-carousel, .hero-carousel .item {
-      height: 400px; } }
+      height: 360px; } }
   @media (min-width: 992px) {
     .hero-carousel, .hero-carousel .item {
-      height: 400px; } }
+      height: 360px; } }
 .carousel-image {
     background-image: url('../images/water-wide.jpg');
     background-repeat: repeat-x;
     background-position:center bottom;
 }
-.carousel-image .big {
-        font-size: 46px;
-}
- @media (min-width: 768px) and (max-width: 991px) {
-    .carousel-image .big {
-      margin-top: 20px; } }
-  @media (min-width: 992px) {
-    .carousel-image .big {
-      margin-top: 10px; } }
 .carousel-image .normal {
         color:#123787;
         font-weight: 600;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-image .big {
+        margin-top: 25px;
+    }
+    .hero-carousel .item {
+        display: none;
+        padding-top: 50px;
+    }
+}
+  @media (min-width: 992px) {
+    .carousel-image .big {
+      margin-top: 30px;
+    }
+  }
+
 
 a.hover, a.focus {
     background-color: none;
@@ -310,9 +322,6 @@ height: 100%;
  @media (min-width: 768px){
     .nav-justified > li > a {
         border-bottom: none;
-    }
-    .navbar-default .navbar-brand {
-        min-width: 220px;
     }
     #header .navbar-default .navbar-nav > li > a span {
         max-width: 105px;
