@@ -31,6 +31,22 @@ namespace Waterproofing.Controllers
         {
             return View();
         }
+        public ActionResult Commercial()
+        {
+            return View();
+        }
+        public ActionResult MunicipalGovernment()
+        {
+            return View();
+        }
+        public ActionResult Residential()
+        {
+            return View();
+        }
+        public ActionResult TugBoatsChicagoMarina()
+        {
+            return View();
+        }
 
     }
 }
