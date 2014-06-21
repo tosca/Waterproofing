@@ -2,7 +2,7 @@
     display: block;
 }
 body {
-    background-color: #f3f3f3;
+    background-color: #fff;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
@@ -22,7 +22,7 @@ p {
     color: #123787;
 }
 #wrapper {
-    background-color: red;
+    background-color: #fff;
 }
 #header {
     background-color: #e8e8e8;
@@ -75,7 +75,7 @@ p {
 }
 .navbar-collapse .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
-    margin-top: 78px;
+   /* margin-top: 78px;*/
 }
 #header .navbar-default .navbar-toggle {
     margin: 0px 20px 0px;
@@ -112,7 +112,7 @@ p {
     }
    .navbar-collapse .navbar-nav.navbar-right:last-child {
     margin-right: 0px;
-    margin-top: 70px;
+  /*  margin-top: 70px;*/
     }
 }
 .main {
@@ -164,6 +164,10 @@ display: none!important;
   @media (min-width: 992px) {
     .carousel-image .big {
       margin-top: 30px;
+    }
+     .navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 0px;
+  margin-top: 70px;
     }
   }
 
