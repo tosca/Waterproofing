@@ -158,15 +158,8 @@
     <Content Include="assets\images\crawlspace_storage.jpg" />
     <Content Include="assets\images\fountain-1.jpg" />
     <Content Include="assets\images\fountain-2.jpg" />
-    <Content Include="assets\images\HTWlogo-1.svg" />
-    <Content Include="assets\images\HTWlogo-3.svg" />
-    <Content Include="assets\images\HTWlogo-4.png" />
-    <Content Include="assets\images\HTWlogo-6.png" />
     <Content Include="assets\images\HTWlogo.png" />
-    <Content Include="assets\images\HTWlogo.svg" />
     <Content Include="assets\images\ie\backgroundsize.min.htc" />
-    <Content Include="assets\images\logo.png" />
-    <Content Include="assets\images\logo.svg" />
     <Content Include="assets\images\manhole.jpg" />
     <Content Include="assets\images\meta_icons\apple-touch-icon.png" />
     <Content Include="assets\images\meta_icons\contact.png" />
