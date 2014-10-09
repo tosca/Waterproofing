@@ -5985,7 +5985,7 @@ body.boxed #scroll-to-top {
         border-bottom-right-radius: 5px; } }
   @media (min-width: 768px) {
     #header .navbar-default .navbar-nav > li {
-      margin-top: 10px; }
+      margin-top: 0; }
       #header .navbar-default .navbar-nav > li > a {
         margin-top: 1px;
         padding: 0 15px;
