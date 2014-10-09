@@ -146,6 +146,10 @@
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.svg" />
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.woff" />
     <Content Include="assets\images\Basement-drain-tile.jpg" />
+    <Content Include="assets\images\bee-dry-1.JPG" />
+    <Content Include="assets\images\bee-dry-2.JPG" />
+    <Content Include="assets\images\bee-dry-3.JPG" />
+    <Content Include="assets\images\bee-dry.jpg" />
     <Content Include="assets\images\bg_wrapper.jpg" />
     <Content Include="assets\images\crack-repair-1.jpg" />
     <Content Include="assets\images\crack-repair-2.jpg" />
@@ -276,6 +280,7 @@
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.eot" />
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.ttf" />
     <Content Include="assets\fonts\font-awesome\FontAwesome.otf" />
+    <Content Include="assets\images\High-Tech-PARAPET-BEE-Dry.pdf" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -313,7 +318,7 @@
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Contact\ThankYou.cshtml" />
     <Content Include="Views\Home\MunicipalGovernment.cshtml" />
-    <Content Include="Views\Home\Commercial.cshtml" />
+    <Content Include="Views\Home\ParapetWaterproofing.cshtml" />
     <Content Include="Views\Home\Residential.cshtml" />
     <Content Include="Views\Home\Tug-Boats-Chicago-Marina.cshtml" />
   </ItemGroup>

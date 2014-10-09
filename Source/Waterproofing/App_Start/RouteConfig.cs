@@ -29,6 +29,12 @@ namespace Waterproofing
                 );
 
             routes.MapRoute(
+               "parapet-waterproofing",
+               "parapet-waterproofing",
+               new { controller = "Home", action = "ParapetWaterproofing" }
+               );
+
+            routes.MapRoute(
                 "foundation-crack-repair",
                 "foundation-crack-repair",
                 new { controller = "Home", action = "FoundationCrackRepair" }

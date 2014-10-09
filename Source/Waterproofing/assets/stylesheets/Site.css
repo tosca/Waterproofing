@@ -8,14 +8,12 @@ body {
     text-rendering: optimizelegibility;
 }
 p {
-    color: #333;
     color: #676f7a;
 }
 .green {
     color: #8dc153;
 }
 .orange {
-    color:#f59f08;
     color:#ed560c;    
 }
 .blue {
@@ -74,7 +72,6 @@ p {
 }
 .navbar-collapse .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
-   /* margin-top: 78px;*/
 }
 #header .navbar-default .navbar-toggle {
     margin: 0px 20px 0px;
@@ -99,7 +96,7 @@ p {
     .navbar-brand img {
     margin-left: 10px;
     margin-top: 20px;
-    width: 270px;
+    width: 210px;
     }
     .top-contact {
     position: absolute;
@@ -111,12 +108,15 @@ p {
     }
    .navbar-collapse .navbar-nav.navbar-right:last-child {
     margin-right: 0px;
-  /*  margin-top: 70px;*/
     }
+} 
+@media (min-width: 991px){
+   .navbar-collapse .navbar-nav.navbar-right:last-child {
+      margin-right: 0px;
+      margin-top: 40px;}
 }
 .main {
-    max-width: 1920px;
-}
+    max-width: 1920px;}
 .hero-carousel {
     background-color: #123787;
     margin-top: 91px;
@@ -125,7 +125,6 @@ p {
  .hero-carousel .item {
         padding-top: 10px;
  }
-
 @media (max-width: 991px) and (min-width: 768px){
 .visible-sm {
 display: none!important;
@@ -158,19 +157,14 @@ display: none!important;
     .carousel-image .normal {
         color:#123787;
         font-weight: 500;
-}
+    }
 }
   @media (min-width: 992px) {
     .carousel-image .big {
       margin-top: 30px;
     }
-     .navbar-collapse .navbar-nav.navbar-right:last-child {
-    margin-right: 0px;
-  margin-top: 70px;
+    
     }
-  }
-
-
 a.hover, a.focus {
     background-color: none;
 }
@@ -335,7 +329,7 @@ height: 100%;
         border-bottom: none;
     }
     #header .navbar-default .navbar-nav > li > a span {
-        max-width: 105px;
+        max-width: 103px;
     }
 }
 @media (min-width: 992px) {

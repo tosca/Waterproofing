@@ -31,7 +31,7 @@ namespace Waterproofing.Controllers
         {
             return View();
         }
-        public ActionResult Commercial()
+        public ActionResult ParapetWaterproofing()
         {
             return View();
         }
