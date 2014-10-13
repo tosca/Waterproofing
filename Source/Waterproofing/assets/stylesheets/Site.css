@@ -23,7 +23,7 @@ p {
     background-color: #fff;
 }
 #header {
-    background-color: #d0d0d0;
+    background-color: #dddddd;
 }
 #header .navbar {
     height: auto;
@@ -111,7 +111,9 @@ p {
 } 
 @media (min-width: 991px){
    .navbar-collapse .navbar-nav.navbar-right:last-child {
-      margin-top: 0px;}
+      margin-top: 40px;
+      margin-right: 80px;
+   }
 }
 .main {
     max-width: 1920px;}
@@ -331,13 +333,13 @@ height: 100%;
         margin-top: 0;
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 991px) {
     .navbar-default .navbar-brand {
         max-width: none;
     } 
     .nav > li {
           padding-left: 15px;}
     #header .navbar-default .navbar-nav > li > a span {
-        margin-top: 40px;   
+        margin-top: 0px;   
     }
 }
