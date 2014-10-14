@@ -145,6 +145,7 @@
   <ItemGroup>
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.svg" />
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.woff" />
+    <Content Include="assets\images\angies-list-icon.png" />
     <Content Include="assets\images\Basement-drain-tile.jpg" />
     <Content Include="assets\images\bee-dry-1.JPG" />
     <Content Include="assets\images\bee-dry-2.JPG" />
