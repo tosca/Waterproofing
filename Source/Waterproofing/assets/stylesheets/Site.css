@@ -12,6 +12,7 @@ p {
 }
 .green {
     color: #8dc153;
+    color:#7cb723;
 }
 .orange {
     color:#ed560c;    
@@ -19,11 +20,23 @@ p {
 .blue {
     color: #123787;
 }
+.lead.lead-title {
+  font-family: "Open Sans";
+  line-height: 34px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #676f7a;
+}
+.lead.lead-title span{
+    font-weight: 700;
+    font-size: 24px;
+}
 #wrapper {
     background-color: #fff;
 }
 #header {
-    background-color: #d2dae4;
+    background-color: #f2f2f2;
+    padding-bottom: 10px;
 }
 #header .navbar {
     height: auto;
@@ -60,8 +73,8 @@ p {
     font-weight: 400;
 }
 #header .navbar-default .navbar-nav > li > a:hover span, #header .navbar-default .navbar-nav > li > a:focus span {
-    color: rgb(156, 164, 175);
-    border-bottom-color: rgb(156, 164, 175);    
+    color: #123787;
+    border-bottom-color: #123787;    
 }
 .nav > li > a:hover span,
 .nav > li > a:focus span {
@@ -92,11 +105,33 @@ p {
 .top-contact a{
     padding-right: 7px;
 }
+.angie-list {
+    z-index: 3;
+    float: right;
+    color: white;
+    font-weight: 600;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+  padding: 8px 12px; 
+    background-color: darkgreen; 
+    margin-top:20px;
+    margin-right: 25px;
+    border:5px solid #debe0e;
+}
 @media (min-width: 768px) {
     .navbar-brand img {
     margin-left: 10px;
     margin-top: 20px;
     width: 210px;
+    }
+    .navbar-nav ul li{
+        float: left;
+        margin: 0;
+
     }
     .top-contact {
     position: absolute;
@@ -188,10 +223,6 @@ section h1{
 .pane-heading {
     background-color: grey;
     height: 300px;
-}
-.panel.panel-big .panel-body p {
-    color: #444444;
-    padding: 0;
 }
 .panel-body p {
     text-align: left;
@@ -329,7 +360,7 @@ height: 100%;
         border-bottom: none;
     }
     #header .navbar-default .navbar-nav > li > a span {
-        max-width: 103px;
+        max-width: 125px;
         margin-top: 0;
     }
 }
@@ -337,8 +368,6 @@ height: 100%;
     .navbar-default .navbar-brand {
         max-width: none;
     } 
-    .nav > li {
-          padding-left: 15px;}
     #header .navbar-default .navbar-nav > li > a span {
         margin-top: 0px;   
     }

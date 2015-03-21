@@ -179,6 +179,8 @@
     <Content Include="assets\images\meta_icons\favicon.ico" />
     <Content Include="assets\images\meta_icons\favicon.png" />
     <Content Include="assets\images\meta_icons\water-drop1.png" />
+    <Content Include="assets\images\photo-1.JPG" />
+    <Content Include="assets\images\photo-2.JPG" />
     <Content Include="assets\images\slide-img-6.jpg" />
     <Content Include="assets\images\thank-you-note1.png" />
     <Content Include="assets\images\water-pattern-2.jpg" />
@@ -286,6 +288,7 @@
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.ttf" />
     <Content Include="assets\fonts\font-awesome\FontAwesome.otf" />
     <Content Include="assets\images\High-Tech-PARAPET-BEE-Dry.pdf" />
+    <Content Include="assets\images\Split Level Brochure.pdf" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />

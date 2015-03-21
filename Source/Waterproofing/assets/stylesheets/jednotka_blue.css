@@ -6133,7 +6133,7 @@ body.boxed #scroll-to-top {
   #footer #footer-main .info-box, #footer #footer-main ul, #footer #footer-main p, #footer #footer-main ol, #footer #footer-main ul li, #footer #footer-main ol li {
     color: #ffffff; }
   #footer #footer-main p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px; }
   #footer #footer-main ul, #footer #footer-main ol {
     margin-bottom: 0; }
@@ -6231,8 +6231,8 @@ body {
     margin-bottom: 70px; }
   .lead.lead-md {
     font-family: "Open Sans";
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 34px;
+    font-size: 20px;
     font-weight: 400;
     color: #676f7a; }
   .lead.lead-sm {
@@ -6720,6 +6720,8 @@ pre {
     padding: 20px; }
     .panel.panel-big .panel-body p {
       color: #676f7a;
+      color: #333333;
+      font-size: 16px;
       line-height: 26px; }
     .panel.panel-big .panel-body .panel-title {
       font-weight: 500;
