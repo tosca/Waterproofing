@@ -5817,7 +5817,7 @@ body.boxed #scroll-to-top {
     $HEADER
 \*------------------------------------*/
 #header .navbar {
-  height: 70px; }
+  height: 102px; }
 #header .navbar-default {
   border: none;
   background: none;
@@ -5854,7 +5854,7 @@ body.boxed #scroll-to-top {
   #header .navbar-default .navbar-brand {
     padding: 0;
     float: none;
-   /* height: 90px;*/
+   height: 102px;
     display: table-cell;
     vertical-align: middle; }
   #header .navbar-default .navbar-toggle {
@@ -5865,7 +5865,7 @@ body.boxed #scroll-to-top {
     -moz-border-radius: 5px;
     border-radius: 5px; }
     #header .navbar-default .navbar-toggle .icon-bar {
-      background-color: white; }
+      background-color: #123787; }
     #header .navbar-default .navbar-toggle:hover, #header .navbar-default .navbar-toggle:focus {
       border-color: #3566cb;
       background-color: #3566cb; }
