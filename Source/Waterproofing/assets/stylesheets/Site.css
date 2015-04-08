@@ -82,9 +82,6 @@ p {
 .nav > li > a:focus span {
     background-color: none;
 }
-#header .navbar-default .navbar-collapse {
-      /*  background-color: #e8e8e8;*/
-}
 .navbar-collapse .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
 }
@@ -99,31 +96,30 @@ p {
     top: 100px; 
 }
 .top-contact {
-    position: relative;
-    right:0px;
-    margin-top: -110px;
+    position: absolute;
+    right:7px;
+    margin-top: 0px;
 }
-.top-contact a{
-    padding-right: 7px;
-}
+/*.top-contact a{
+   padding-right: 7px;
+}*/ 
 .angie-list {
-    z-index: 9000;
- /*   position:absolute;
-    right: 20px;*/
-   top: 10px;
-    width: 120px;
-    color: white;
-    font-weight: 500;
+  /*  z-index: 9000;
+    position:absolute;
+      right: 20px;
+   top: 10px;*/
+   width: 120px;
+   color: white;
+   font-weight: 500;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
-  border-radius: 50px;
-  font-size: 14px;
-  text-align: center;
-  line-height: 20px;
-  padding: 5px 10px; 
-    background-color: darkgreen; 
-    margin: 13px;
-    border:5px solid #debe0e;
+   border-radius: 50px;
+   font-size: 13px;
+   text-align: center;
+   line-height: 18px;
+   background-color: darkgreen; 
+   margin: 0px;
+   border:4px solid #debe0e;
 }
 @media (min-width: 768px) {
     .navbar-brand img {

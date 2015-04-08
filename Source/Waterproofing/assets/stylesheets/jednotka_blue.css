@@ -5988,7 +5988,7 @@ body.boxed #scroll-to-top {
       margin-top: 0; }
       #header .navbar-default .navbar-nav > li > a {
         margin-top: 1px;
-        padding: 0 15px;
+        padding: 0 7px;
         background-color: transparent;
         border: none; }
         #header .navbar-default .navbar-nav > li > a [class^="fa-icon-"], #header .navbar-default .navbar-nav > li > a [class*=" fa-icon-"] {
@@ -6042,9 +6042,14 @@ body.boxed #scroll-to-top {
         right: 15px;
         margin-right: 0;
         left: auto; } }
-
-.lt-ie9 #header .navbar-right {
-  margin-right: -30px; }
+#header .navbar-default .navbar-nav > li > a {
+    margin-top: 1px;
+    padding: 0 7px;
+}
+  @media (min-width: 992px){
+ #header .navbar-default .navbar-nav > li > a {
+        padding: 0 15px;
+  }
 
 /*------------------------------------*\
     $FOOTER
