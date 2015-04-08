@@ -11,8 +11,7 @@ p {
     color: #676f7a;
 }
 .green {
-    color: #8dc153;
-    color:#7cb723;
+    color:#79Af26;
 }
 .orange {
     color:#ed560c;    
@@ -44,7 +43,7 @@ p {
     }
 .navbar-default .navbar-brand {
     color: #123787;
-    padding: 20px 0px 0 0;
+    padding: 20px 0 0 0;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     border-bottom: 2px solid #123787;
@@ -52,7 +51,7 @@ p {
 .nav-justified> li> a {
     background: transparent;
     padding: 0px 5px;
-    margin: 0 10px;
+    margin: 0 7px;
     font-size: 14px;
     text-align: left;
     border-bottom: 1px solid white; 
@@ -60,9 +59,9 @@ p {
 .narbar-header h2 {
    color: #676f7a;
 }
-.navbar-brand img{
-    margin-left: 10px;
-}
+ /* .navbar-brand img{
+  margin-left: 10px;
+}*/
 /* .nav > li {
     background-color: none;
    color: #676f7a;
@@ -86,7 +85,7 @@ p {
     margin-right: -15px;
 }
 #header .navbar-default .navbar-toggle {
-    margin: 0px 20px 0px;
+    margin: 0px 10px 0px;
     border-color: #123787;
     border-width: 2px;
     border-radius: 5px;
@@ -164,19 +163,19 @@ p {
 .carousel-image .normal {
         color:#fff;
         font-weight: 400;
-} @media (min-width: 768px) and (max-width: 991px) {
-    .hero-carousel, .hero-carousel .item {
-      height: 360px; } }
+} 
   @media (min-width: 992px) {
     .hero-carousel, .hero-carousel .item {
       height: 360px; } }
-@media (min-width: 991px){
+@media (min-width: 992px){
    .navbar-collapse .navbar-nav.navbar-right:last-child {
       margin-top: 40px;
-      margin-right: 80px;
+      margin-right: 40px;
    }
 }
 @media (min-width: 768px) and (max-width: 991px){
+    .hero-carousel, .hero-carousel .item {
+      height: 360px; }
     .visible-sm {
         display: none !important;
     }
@@ -351,23 +350,39 @@ height: 100%;
         padding-top: 0;
     }
 }
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+    .top-contact {
+        right: 12px;
+    }
+}
+@media (min-width: 768px){
+    .nav-justified > li > a {
+        border-bottom: none;
+    }
+  /*  #header .navbar-default .navbar-nav > li > a span {
+        max-width: 110px;
+    } */ 
+    #header .navbar-default .navbar-nav > li {
+  margin-top: 0;
+  padding: 0;
+  max-width: 120px;
+} 
+}
 
-@media (min-width: 991px) {
+@media (min-width: 1025px) {
     .navbar-default .navbar-brand {
         max-width: none;
     } 
     #header .navbar-default .navbar-nav > li > a span {
         margin-top: 7px;
-         max-width: 120px;
-           
+        max-width: 120px;
+        padding: 0;           
+    }
+    .top-contact {
+        right: 10%;
     }
 }
- @media (min-width: 768px){
-    .nav-justified > li > a {
-        border-bottom: none;
-    }
-    #header .navbar-default .navbar-nav > li > a span {
-        max-width: 110px;
-    }
-}
+ 
 
