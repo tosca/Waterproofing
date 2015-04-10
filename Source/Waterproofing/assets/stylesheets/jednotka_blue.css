@@ -5988,13 +5988,14 @@ body.boxed #scroll-to-top {
       margin-top: 0; }
       #header .navbar-default .navbar-nav > li > a {
         margin-top: 1px;
-        padding: 0 7px;
+        padding: 0 5px;
         background-color: transparent;
         border: none; }
         #header .navbar-default .navbar-nav > li > a [class^="fa-icon-"], #header .navbar-default .navbar-nav > li > a [class*=" fa-icon-"] {
           margin: 0 0 0 5px;
           float: none; }
         #header .navbar-default .navbar-nav > li > a span {
+          font-size: 16px;
           color: #676f7a;
           height: 60px;
           border-bottom: 3px solid transparent;
@@ -6046,10 +6047,12 @@ body.boxed #scroll-to-top {
     margin-top: 1px;
     padding: 0 7px;
 }
-  @media (min-width: 992px){
- #header .navbar-default .navbar-nav > li > a {
-        padding: 0 15px;
-  }
+@media (min-width: 992px) {
+    #header .navbar-default .navbar-nav > li > a {
+        padding: 0 8px;
+        max-width: 120px;
+    }
+}
 
 /*------------------------------------*\
     $FOOTER
@@ -7600,11 +7603,7 @@ pre {
   height: 360px; }
   @media (min-width: 768px) and (max-width: 991px) {
     .hero-carousel, .hero-carousel .item {
-      height: 360px; }
-        .hero-carousel .item {
-            padding-top: 25px;
-        }
-  }
+      height: 360px; } }
   @media (min-width: 992px) {
     .hero-carousel, .hero-carousel .item {
       height: 360px; } }
@@ -7617,11 +7616,11 @@ body.boxed .hero-carousel .flex-direction-nav .flex-next {
 .hero-carousel {
   position: relative;
   min-height: 360px;
-  top: -91px;
-  margin-bottom: -91px; }
+ /* top: -91px;
+  margin-bottom: -91px;//removed tosca */ }
   .hero-carousel .item {
     display: none;
-    padding-top: 40px; }
+    padding-top: 91px; }
   .hero-carousel .slides {
     margin: 0;
     padding: 0;

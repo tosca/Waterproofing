@@ -7,6 +7,9 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
 }
+/*.container {
+    max-width: 992px;
+}*/
 p {
     color: #676f7a;
 }
@@ -39,7 +42,6 @@ p {
 }
 .navbar-nav {
     height: auto;
-    margin: 7px;
     }
 .navbar-default .navbar-brand {
     color: #123787;
@@ -71,7 +73,7 @@ p {
     text-shadow: none;
     background-color: none;
     font-weight: 400;
-    font-size: 18px;
+  /*  font-size: 18px;*/
 }
 #header .navbar-default .navbar-nav > li > a:hover span, #header .navbar-default .navbar-nav > li > a:focus span {
     color: #123787;
@@ -108,6 +110,7 @@ p {
       right: 20px;
    top: 10px;*/
    width: 120px;
+   vertical-align: middle;
    color: white;
    font-weight: 500;
   -webkit-border-radius: 50px;
@@ -117,10 +120,10 @@ p {
    text-align: center;
    line-height: 18px;
    background-color: darkgreen; 
-   margin: 0px;
+   top: 10px;
    border:4px solid #debe0e;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .navbar-brand img {
     margin-left: 0px;
     margin-top: 20px;
@@ -129,8 +132,7 @@ p {
     .navbar-nav ul li{
         float: left;
         margin: 0;
-
-    }
+ }
   /*  .top-contact {
     position: absolute;
     float:right;
@@ -142,60 +144,63 @@ p {
    .navbar-collapse .navbar-nav.navbar-right:last-child {
     }
 } 
-.main {
-    max-width: 1920px;}
+/*.main {
+    max-width: 1920px;
+}*/
+
 .hero-carousel {
     background-color: #123787;
-    margin-top: 91px;
-    width: 100%;
 }
  .hero-carousel .item {
         padding-top: 10px;
  }
- .hero-carousel, .hero-carousel .item {
-  height: 360px;
- } 
+@media (min-width: 768px) and (max-width: 991px) {
+/*.visible-sm {
+display: none!important;*/
+}}
+.hero-carousel, .hero-carousel .item {
+  height: 360px; }
+
+  @media (min-width: 768px) {
+    .hero-carousel, .hero-carousel .item {
+  
+      margin-top:-10px;
+    } }
+ @media (min-width: 992px) {
+    .hero-carousel, .hero-carousel .item {
+      height: 360px; } }
+
+ 
 .carousel-image {
     background-image: url('../images/water-wide.jpg');
     background-repeat: repeat-x;
     background-position:center bottom;
 }
+
 .carousel-image .normal {
         color:#fff;
         font-weight: 400;
 } 
-  @media (min-width: 992px) {
-    .hero-carousel, .hero-carousel .item {
-      height: 360px; } }
-@media (min-width: 992px){
-   .navbar-collapse .navbar-nav.navbar-right:last-child {
-      margin-top: 40px;
-      margin-right: 40px;
-   }
-}
-@media (min-width: 768px) and (max-width: 991px){
-    .hero-carousel, .hero-carousel .item {
-      height: 360px; }
-    .visible-sm {
-        display: none !important;
-    }
+
+@media (min-width: 768px) and (max-width: 991px){  
     .carousel-image .big {
         margin-top: 25px;
     }
     .hero-carousel .item {
-        display: none;
-        padding-top: 50px;
+       /* display: none;
+        padding-top: 50px;*/
     }
     .carousel-image .normal {
         color:#123787;
         font-weight: 500;
     }
 }
-/*  @media (min-width: 991px) {
+  @media (min-width: 992px) and (max-width: 1199px) {
     .carousel-image .big {
       margin-top: 30px;
-    }    
-    }*/
+    }    }
+@media (min-width: 1200px) {
+}
 a.hover, a.focus {
     background-color: none;
 }
@@ -350,39 +355,46 @@ height: 100%;
         padding-top: 0;
     }
 }
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { 
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
     .top-contact {
         right: 12px;
     }
-}
-@media (min-width: 768px){
-    .nav-justified > li > a {
-        border-bottom: none;
-    }
-  /*  #header .navbar-default .navbar-nav > li > a span {
-        max-width: 110px;
-    } */ 
-    #header .navbar-default .navbar-nav > li {
-  margin-top: 0;
-  padding: 0;
-  max-width: 120px;
-} 
-}
-
-@media (min-width: 1025px) {
+}*/
+@media (min-width: 991px) {
     .navbar-default .navbar-brand {
         max-width: none;
     } 
     #header .navbar-default .navbar-nav > li > a span {
         margin-top: 7px;
-        max-width: 120px;
-        padding: 0;           
-    }
-    .top-contact {
-        right: 10%;
+         max-width: 120px;
+           
     }
 }
- 
+@media (min-width: 768px) {
+    .nav-justified > li > a {
+        border-bottom: none;
+    }
+    #header .navbar-default .navbar-nav > li {
+        margin-top: 0;
+        padding: 0;
+        max-width: 120px;
+        font-size: 13PX;
+    }
+       /* #header .navbar-default .navbar-nav > li > a span {
+            max-width: 110px;
+        }*/
+}
+@media (min-width: 992px) {
+    .navbar-default .navbar-brand {
+        max-width: none;
+    } 
+ /*   #header .navbar-default .navbar-nav > li > a span {
+        margin-top: 7px;
+        max-width: 120px;
+        padding: 0;           
+    }*/
+    .top-contact {
+        right: 7px;
+    }
+}
 
