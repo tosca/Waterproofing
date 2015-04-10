@@ -97,6 +97,7 @@ p {
     top: 100px; 
 }
 .top-contact {
+    z-index: 5000;
     position: absolute;
     right:7px;
     margin-top: 0px;
