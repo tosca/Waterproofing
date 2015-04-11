@@ -42,6 +42,7 @@ p {
 }
 .navbar-nav {
     height: auto;
+    margin: 0 0 0 10px;
     }
 .navbar-default .navbar-brand {
     color: #123787;

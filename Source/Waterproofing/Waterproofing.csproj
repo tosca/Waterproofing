@@ -167,6 +167,8 @@
     <Content Include="assets\images\crawlspace_storage.jpg" />
     <Content Include="assets\images\fountain-1.jpg" />
     <Content Include="assets\images\fountain-2.jpg" />
+    <Content Include="assets\images\htw-logo-brand.png" />
+    <Content Include="assets\images\htw-logo-brand.svg" />
     <Content Include="assets\images\HTWlogo.png" />
     <Content Include="assets\images\ie\backgroundsize.min.htc" />
     <Content Include="assets\images\manhole.jpg" />
