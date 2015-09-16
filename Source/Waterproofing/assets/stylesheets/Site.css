@@ -99,12 +99,11 @@ p {
     top: 100px; 
 }
 .top-contact {
-
    position: relative;
     vertical-align:middle;
-    width: 200px;
     float:right;
     text-align:right;
+    margin-left: 14px;
 }
 .angie-list {
    width: 120px;
@@ -121,11 +120,12 @@ p {
    top: 10px;
    border:4px solid #debe0e;
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar-brand img {
         margin-left: 0px;
         margin-top: 20px;
-        width: 210px;
+        width: 183px;
     }
     .navbar-nav ul li {
         float: left;
@@ -134,46 +134,19 @@ p {
 }
 .hero-carousel {
     background-color: #123787;
-}
- .hero-carousel .item {
-        padding-top: 10px;
- }
-@media (min-width: 768px) and (max-width: 991px) {
-.visible-sm {
-display: none!important;
-}}
-.hero-carousel, .hero-carousel .item {
-  height: 360px; }
-  @media (min-width: 768px) {
-    .hero-carousel, .hero-carousel .item {
-  
-      margin-top:-10px;
-    } }
- @media (min-width: 992px) {
-    .hero-carousel, .hero-carousel .item {
-      height: 360px; } } 
+} 
 .carousel-image {
     background-image: url('../images/water-wide.jpg');
     background-repeat: repeat-x;
     background-position:center bottom;
 }
-
 .carousel-image .normal {
         color:#fff;
         font-weight: 400;
 } 
-
 @media (min-width: 768px) and (max-width: 991px){  
     .carousel-image .big {
         margin-top: 25px;
-    }
-    .hero-carousel .item {
-       /* display: none;
-        padding-top: 50px;*/
-    }
-    .carousel-image .normal {
-        color:#123787;
-        font-weight: 500;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
