@@ -6123,8 +6123,8 @@ body.boxed #scroll-to-top {
     #footer #footer-main form .form-group {
       padding-right: 0; }
     #footer #footer-main form .form-control {
-      background-color: #353b47;
-      border-color: #353b47;
+     /* background-color: #353b47;
+      border-color: #353b47;*/
       color: #aab2bd; }
       #footer #footer-main form .form-control:-moz-placeholder {
         color: #717e90; }

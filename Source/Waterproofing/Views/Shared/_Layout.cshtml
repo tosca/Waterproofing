@@ -97,23 +97,23 @@
             <div id='footer-main'>
                 <div class='container'>
                     <div class='row'>
-                        <div class='col-md-8 col-sm-8 info-box'>
+                        <div class='col-md-6 col-sm-6 info-box'>
                             <div class='logo-container'>
-                                <h2 class='title'>High Tech Waterproofing LLC</h2>
-                            </div>
+                                <h2 class='title'>
+                                    High Tech Waterproofing LLC <br /><span class="h5">448 W. Vallette St, Elmhurst, IL 60126</span>
+                                </h2>
+                            </div><br />
                             <p class='no-mg-b'>
-                                High Tech Waterproofing provides guaranteed crawlspace waterproofing and encapsulation, basement waterproofing, basement drain tile systems, spray foam insulation, and foundation crack repair caused by foundation settling and structural cracks.<br /><br /> Our HIGH TECH WATERPROOFING solutions stop water related problems that include: basement mold, water intrusion and flood control, rodents, seepage, moisture and dampness, structural building cracks, basement leaking, wood rot, radon and poor air quality.<br /> Our polyurea water encapsulation system has been recommended by HSH Inspections, LLC as the "best example of an encapsulation" and "a near perfect barrier from moisture intrusion and heat loss." 
-                            <br /><br />                           
+                                High Tech Waterproofing provides guaranteed crawlspace waterproofing and encapsulation, basement waterproofing, basement drain tile systems, spray foam insulation, and foundation crack repair caused by foundation settling and structural cracks.<br /><br /> Our HIGH TECH WATERPROOFING solutions stop water related problems that include: basement mold, water intrusion and flood control, rodents, seepage, moisture and dampness, structural building cracks, basement leaking, wood rot, radon and poor air quality.<br /> Our polyurea water encapsulation system has been recommended by HSH Inspections, LLC as the "best example of an encapsulation" and "a near perfect barrier from moisture intrusion and heat loss."
+                                <br /><br />
                                 We are headquartered in Elmhurst, Illinois. Hightech Waterproofing specializes in crawlspace encapsulation and foundation crack repair in Chicago, Arlington Heights, Aurora, Berwyn, Bolingbrook, Cicero, Des Plaines, Elmhurst, Lombard, Evanston, Hoffman Estates, Elk Grove Village, Schaumburg, Mount Prospect, Naperville, Norridge, Oak Park, Palatine, park Ridge, Skokie, Wheaton and the surrounding greater Chicago metropolitian area.
                             </p>
                         </div>
-                        <div class='col-md-4 col-sm-4 info-box'>
+                        <div class='col-md-6 col-sm-6'>
                             <h2 class='title'>Contact</h2>
                             <div class='icon-boxes'>
-                                High Tech Waterproofing<br />448 W. Vallette St Elmhurst, IL 60126
                                 <div class='icon-box'>
                                     <div class='content'>
-                                        <br />
                                         <div class='icon icon-wrap'>
                                             <i class='fa fa-phone'></i>
                                         </div>
@@ -136,7 +136,7 @@
                                         <a href="https://www.facebook.com/pages/High-Tech-Waterproofing-LLC/498881473553952">facebook</a>
                                     </div>
                                 </div>
-                                <div class='icon-box'>
+                                <div class='icon-box' style="color:white;">
                                     <div class='icon icon-wrap'>
                                         <img src="~/assets/images/angies-list-icon.png" /><!--<i class='fa fa-comment-o'></i>-->
                                     </div>
@@ -144,11 +144,38 @@
                                         <a href="https://www.AngiesList.com/Review/8106616">review on Angie's list</a><br /><br />
                                     </div>
                                 </div>
-                            </div>                          
-                            </div>
+                            </div> 
+                            <form action="/Contact/Index" class="navbar-form navbar-left well well-sm text-left" role="form" method="post">
+                                <div class="form-group">
+                                    <label class="control-label" for="Comment"><span class='fa fa-icon-envelope blue'></span> Tell us about your project</label>
+                                    <textarea class="form-control input" cols="20" id="Comment" maxlength="500" name="Comment" rows="2"></textarea>
+                                    <span class="field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="Name">Name</label>
+                                    <input class="form-control input" data-val="true" data-val-required="Name is Required" id="Name" maxlength="50" name="Name" type="text">
+                                    <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="Email">Email <small>*(Always kept private)</small></label>
+                                    <input class="form-control input" data-val="true" data-val-required="Email is Required" id="Email" maxlength="50" name="Email" type="email">
+                                    <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="Phone">Phone <small>*(Optional)</small></label>
+                                    <input class="form-control input" data-val="true" id="Phone" maxlength="15" name="Phone" type="tel">
+                                    <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
+                                </div>
+
+                                <input type="submit" class="btn btn-success navbar-btn btn-sm pull-right clearfix" value="Send Email">
+                            </form>
+
+                            
+                        </div>
                     </div>
+                 </div>
                 </div>
-            </div>
+           
         </footer>
     </div>
     <script src="~/assets/javascripts/jquery/jquery.min.js" type="text/javascript"></script>
