@@ -169,7 +169,6 @@
     <Content Include="assets\images\fountain-2.jpg" />
     <Content Include="assets\images\htw-logo-brand.png" />
     <Content Include="assets\images\htw-logo-brand.svg" />
-    <Content Include="assets\images\HTWlogo.png" />
     <Content Include="assets\images\ie\backgroundsize.min.htc" />
     <Content Include="assets\images\manhole.jpg" />
     <Content Include="assets\images\meta_icons\apple-touch-icon.png" />
@@ -185,7 +184,6 @@
     <Content Include="assets\images\photo-2.JPG" />
     <Content Include="assets\images\slide-img-6.jpg" />
     <Content Include="assets\images\thank-you-note1.png" />
-    <Content Include="assets\images\water-pattern-2.jpg" />
     <Content Include="assets\images\water-wide.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Views\Home\favicon.ico" />
