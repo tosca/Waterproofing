@@ -19,6 +19,15 @@ p {
 .blue {
     color: #123787;
 }
+white{
+    color: #ffffff;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
 .lead.lead-title {
   font-family: "Open Sans";
   line-height: 34px;
@@ -34,8 +43,14 @@ p {
     background-color: #fff;
 }
 #header {
-    background-color: #f2f2f2;
-    padding-bottom: 7px;
+    background-color: #b6c2db;
+    z-index: 999;
+    width: 100%;
+    position: static;
+}
+.contact-header{
+    vertical-align:middle;
+    text-align: center;
 }
 .navbar-nav {
     height: auto;
@@ -59,9 +74,9 @@ p {
 .navbar-header h2 {
    color: #676f7a;
 }
- /* .navbar-brand img{
-  margin-left: 10px;
-}*/
+.navbar-brand{
+  padding: 0;
+}
 /* .nav > li {
     background-color: none;
    color: #676f7a;
