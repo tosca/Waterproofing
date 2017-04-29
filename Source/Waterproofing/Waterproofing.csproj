@@ -182,8 +182,6 @@
     <Content Include="assets\images\meta_icons\favicon.ico" />
     <Content Include="assets\images\meta_icons\favicon.png" />
     <Content Include="assets\images\meta_icons\water-drop1.png" />
-    <Content Include="assets\images\photo-1.JPG" />
-    <Content Include="assets\images\photo-2.JPG" />
     <Content Include="assets\images\slide-img-6.jpg" />
     <Content Include="assets\images\thank-you-note1.png" />
     <Content Include="assets\images\water-wide.jpg" />
@@ -203,11 +201,6 @@
     <Content Include="assets\images\plugins\nivo_slider\next.png" />
     <Content Include="assets\images\plugins\nivo_slider\prev%402x.png" />
     <Content Include="assets\images\plugins\nivo_slider\prev.png" />
-    <Content Include="assets\images\slide-img-1.jpg" />
-    <Content Include="assets\images\slide-img-2.jpg" />
-    <Content Include="assets\images\slide-img-3.jpg" />
-    <Content Include="assets\images\slide-img-4.jpg" />
-    <Content Include="assets\images\slide-img-5.jpg" />
     <Content Include="assets\images\water-pattern.jpg" />
     <Content Include="assets\javascripts\bootstrap\bootstrap.min.js" />
     <Content Include="assets\javascripts\docs.js" />

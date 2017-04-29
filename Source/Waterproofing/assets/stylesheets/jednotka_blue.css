@@ -5769,7 +5769,6 @@ body {
 
 #main-content {
   padding: 30px 0 50px 0;
-  margin-top: 100px;/*tosca*/
   background-color: #ffffff; }
 
 body.boxed #scroll-to-top {
@@ -6054,7 +6053,8 @@ body.boxed #scroll-to-top {
 \*------------------------------------*/
 #footer #footer-main {
   padding: 50px 0;
-  background-color: #9ca4af;
+  background-color:#677593;
+   background-color:#9296b9;
   text-align: center; }
   @media (min-width: 768px) {
     #footer #footer-main {
