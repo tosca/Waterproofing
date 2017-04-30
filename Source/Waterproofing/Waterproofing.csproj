@@ -166,12 +166,6 @@
     <Content Include="assets\images\crack-repair-1.jpg" />
     <Content Include="assets\images\crack-repair-2.jpg" />
     <Content Include="assets\images\crack-repair-3.jpg" />
-    <Content Include="assets\images\crawlspace-storage-2.jpg" />
-    <Content Include="assets\images\crawlspace-storage-3.jpg" />
-    <Content Include="assets\images\crawlspace-storage-4.jpg" />
-    <Content Include="assets\images\crawlspace_before_polyurea.jpg" />
-    <Content Include="assets\images\crawlspace_encapsulation.jpg" />
-    <Content Include="assets\images\crawlspace_storage.jpg" />
     <Content Include="assets\images\fountain-1.jpg" />
     <Content Include="assets\images\fountain-2.jpg" />
     <Content Include="assets\images\htw-logo-crack-repair.png" />
@@ -189,8 +183,6 @@
     <Content Include="assets\images\meta_icons\favicon.png" />
     <Content Include="assets\images\meta_icons\water-drop1.png" />
     <Content Include="assets\images\slide-img-6.jpg" />
-    <Content Include="assets\images\thank-you-note1.png" />
-    <Content Include="assets\images\water-wide.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Views\Home\favicon.ico" />
     <Content Include="Views\Shared\favicon.png" />
