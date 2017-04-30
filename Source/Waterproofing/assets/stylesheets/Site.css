@@ -44,6 +44,7 @@ white{
 }
 #header {
     background-color: #9095b9;
+     background-color: #c1c2dc;
     z-index: 9999;
     width: 100%;
     position: fixed;
@@ -153,9 +154,10 @@ white{
     background-color: #123787;
 } 
 .carousel-image {
-  /* background-image: url('../images/water-wide.jpg');*/ 
+  /* background-image: url('../images/water-wide.jpg'); 
     background-repeat: repeat-x;
-    background-position:center bottom;
+    background-position:center bottom;*/
+    background-color: #123787;
 }
 .carousel-image .normal {
         color:#fff;

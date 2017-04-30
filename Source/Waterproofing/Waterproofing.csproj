@@ -157,6 +157,12 @@
     <Content Include="assets\images\bee-dry-brick-3.jpg" />
     <Content Include="assets\images\bee-dry.jpg" />
     <Content Include="assets\images\bg_wrapper.jpg" />
+    <Content Include="assets\images\crack-repair-01.jpg" />
+    <Content Include="assets\images\crack-repair-02.jpg" />
+    <Content Include="assets\images\crack-repair-03.jpg" />
+    <Content Include="assets\images\crack-repair-04.jpg" />
+    <Content Include="assets\images\crack-repair-05.jpg" />
+    <Content Include="assets\images\crack-repair-06.jpg" />
     <Content Include="assets\images\crack-repair-1.jpg" />
     <Content Include="assets\images\crack-repair-2.jpg" />
     <Content Include="assets\images\crack-repair-3.jpg" />
