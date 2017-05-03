@@ -148,14 +148,6 @@
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.woff" />
     <Content Include="assets\images\angies-list-icon.png" />
     <Content Include="assets\images\Basement-drain-tile.jpg" />
-    <Content Include="assets\images\bee-dry-0.jpg" />
-    <Content Include="assets\images\bee-dry-1.JPG" />
-    <Content Include="assets\images\bee-dry-2.JPG" />
-    <Content Include="assets\images\bee-dry-3.JPG" />
-    <Content Include="assets\images\bee-dry-brick-1.jpg" />
-    <Content Include="assets\images\bee-dry-brick-2.jpg" />
-    <Content Include="assets\images\bee-dry-brick-3.jpg" />
-    <Content Include="assets\images\bee-dry.jpg" />
     <Content Include="assets\images\bg_wrapper.jpg" />
     <Content Include="assets\images\crack-repair-01.jpg" />
     <Content Include="assets\images\crack-repair-02.jpg" />
