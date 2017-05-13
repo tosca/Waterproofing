@@ -12,6 +12,7 @@ p {
 }
 .green {
     color:#79Af26;
+    color:darkgreen;
 }
 .orange {
     color:#ed560c;    
@@ -39,6 +40,7 @@ white{
     font-weight: 700;
     font-size: 24px;
 }
+
 #wrapper {
     background-color: #fff;
 }
@@ -46,7 +48,7 @@ white{
     background-color: #c1c2dc;
     background-color: #9095b9;
     background-color: #a1a5c3;
-    background-color: #adb0c7;
+    background-color: #eeeff1;
     z-index: 9999;
     width: 100%;
     position: fixed;
@@ -119,6 +121,9 @@ white{
     position: fixed; 
     top: 100px; 
 }
+.link-color{
+    color:#123787;
+}
 .top-contact {
    position: relative;
     vertical-align:middle;
@@ -140,6 +145,13 @@ white{
    background-color: darkgreen; 
    top: 10px;
    border:4px solid #debe0e;
+}
+.caption{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    color:#123787;
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -259,15 +271,13 @@ opacity:0;
   animation-direction: alternate;
 }
 .cf3 {
-  position:relative;
- /* height:288px;*/
-  width:405px;
-  margin:20px auto;
+ /* position:relative;
+  margin:0 auto;*/
 }
-.cf3 img {
-  position:absolute;
- /*left:0;*/
-}
+/*.cf3 img {
+  position:absolute; 
+ left:0;
+}*/
 /*To make sense of that, I've defined 4 keyframes, 
     specified that whatever has this animation attached will be opaque for the first 45%, 
     then transparent for the last 45%. The animation will repeat forever, 
@@ -292,6 +302,14 @@ section h1{
 .testimonial {
     margin-left: 7%;
     margin-right: 7%;
+}
+.customer{
+    float:right;
+    font-style: italic;
+    display:inline-block;
+}
+.italic{
+    font-style: italic;
 }
 .repair-img .img-thumbnail{
     margin-top: 20px;
@@ -341,7 +359,7 @@ max-height: 60px;
     color: rgb(67, 73, 85);
 }
 .icon-water {
-    background-image: url('../images/meta_icons/water-drop1.png');
+    background-image: url('../images/meta_icons/water-drop.png');
     background-repeat: no-repeat;
     background-position:center center;
     background-size: 60px;   
@@ -400,7 +418,7 @@ max-height: 60px;
 }
 a:hover, a:focus {
     color: #a4b3cf;
-   /* color: #eee;*/
+   color:#94969a;
    text-decoration: none;
 }
 /*__________video__________*/
