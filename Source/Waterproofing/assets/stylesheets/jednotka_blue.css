@@ -3950,7 +3950,7 @@ body {
   background-color: #9ca4af; }
 
 .well {
-  background-color: #eaedf2;
+  background-color:#bdc3d2; 
   border-color: #cad2df;
   margin-bottom: 10px;
 }
@@ -4332,15 +4332,15 @@ body.boxed #scroll-to-top {
     text-transform: uppercase;
     margin: 0 0 25px 0; }
   #footer #footer-main .info-box {
-    margin-top: 90px; }
+    margin-top: 40px; }
     #footer #footer-main .info-box:first-child {
-      margin-top: 90px; }
+      margin-top: 40px; }
     @media (min-width: 768px) {
       #footer #footer-main .info-box:nth-child(2) {
-        margin-top: 90px; } }
+        margin-top: 40px; } }
     @media (min-width: 992px) {
       #footer #footer-main .info-box {
-        margin-top: 90px; } }
+        margin-top: 40px; } }
     #footer #footer-main .info-box a {
       color: white; }
       #footer #footer-main .info-box a:hover {
@@ -4489,7 +4489,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   color: #123787; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-    color: #676f7a;
+    color: #505050;
     font-family: "Open Sans";
     margin-top: 15px; }
 
@@ -4716,8 +4716,13 @@ pre {
 /*------------------------------------*\
     $PANELS
 \*------------------------------------*/
+.panel-item {
+    text-align: center;
+}
+
 .panels .panel-item:first-child .panel-image {
-  margin-top: 45px; }
+  margin-top: 45px;
+}
 
 .panel.panel-image {
   margin-bottom: 0;
@@ -4825,13 +4830,13 @@ pre {
   margin-top: 30px; }
 
 .panel.panel-big {
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: 0;
   position: relative;
   display: block;
   text-decoration: none;
   display: block;
-  background-color:#eeeff1;
+  background-color:#f7f6f6;
   border: 1px solid #123787;
   border: none;
   -webkit-box-shadow: none;
@@ -4840,7 +4845,7 @@ pre {
   .panel.panel-big:hover {
     text-decoration: none; }
   .panel.panel-big .panel-body {
-    padding: 20px; }
+    padding: 26px; }
     .panel.panel-big .panel-body p {
       color: #676f7a;
       color: #333333;
@@ -4849,7 +4854,7 @@ pre {
     .panel.panel-big .panel-body .panel-title {
       font-weight: 500;
       font-size: 22px;
-      margin: 0 0 20px 0;
+      margin: 20px 0 20px 0;
       text-align: center;
     }
   .panel.panel-big .panel-icon {
@@ -4859,7 +4864,7 @@ pre {
     transition: top 300ms;}
   @media (min-width: 768px) {
     .panel.panel-big {
-      margin-top: 60px; } }
+      margin-top: 30px; } }
   .panel.panel-big .panel-icon {
     position: absolute;
     top: 00px;
@@ -4881,7 +4886,7 @@ pre {
       width: 60px;
       height: 60px; }
   .panel.panel-big .panel-body {
-    padding-top: 64px;
+    padding-top: 46px;
     text-align: center; }
   .panel.panel-big:hover .panel-icon {
     top: -36px; }
@@ -6851,16 +6856,18 @@ ul.circle-stats {
       color: #9fa7b2; }
 
 .btn-contrast {
-   background-color: #123787;/*tosca*/
+   background-color:#3566cb;   /*tosca*/
   border-color: #123787;
   background-image: none;
-  color: white; }
+  color: white;
+  margin-top: 20px;
+}
   .btn-contrast:hover, .btn-contrast:focus {
     background-color:#566585;
     border-color: #123787;
     color: white; }
   .btn-contrast:active, .btn-contrast.active {
-    background-color: #566585;
+    background-color: #9296b9;
     border-color: #123787;
     color: white; }
   .btn-contrast.disabled, .btn-contrast[disabled] {
